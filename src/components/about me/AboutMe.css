@@ -1,0 +1,27 @@
+.aboutMe {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.text>p {
+  display: flex;
+  justify-content: center;  
+  font-size: 300px;
+  margin: 0;
+  font-weight: 200;
+  color: rgba(8, 68, 164, 0.473);
+}
+
+.text>span {
+  color: rgb(8, 68, 164);
+
+}

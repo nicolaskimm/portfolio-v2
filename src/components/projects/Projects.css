@@ -1,0 +1,16 @@
+.projectsGallery {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+}
+
+.galleryItem {
+  padding: 20px;
+  width: 600px;
+  height: 370px;
+}
+
+.galleryItem:hover:before {
+  background-color: rgba(215, 219, 226, 0.6);
+  z-index: 2;
+}

@@ -1,0 +1,28 @@
+.navigation {
+  margin: 0;
+}
+
+.navigationList {
+  margin: 0;
+  padding-top: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.listItem>a {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.listItem>a:hover, .active {
+  color: #0844a4;
+  font-weight: bold;
+} 
+
+.active {
+  letter-spacing: 3px;
+}
+
