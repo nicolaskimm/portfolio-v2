@@ -6,10 +6,25 @@ import Navigation from './components/navigation/Navigation';
 import AboutMe from './components/about me/AboutMe';
 import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
+import Loader from './components/Loader/Loader';
 import './App.css';
 
 class App extends Component {
+  state = {
+    loading: true
+  };
+
+  componentDidMount() {
+    setTimeout(() => this.setState({ loading: false }), 3000); 
+  }
+
   render() {
+    const { loading } = this.state;
+    
+    if(loading) {
+      return <Loader />
+    }
+
     return (
       <div className="App">
         <Router history={hashHistory}>
@@ -18,7 +33,8 @@ class App extends Component {
             <Route path='/contact' component={Contact} />
             <Route path='/aboutme' component={AboutMe} />  
             <Route path='/projects' component={Projects} />  
-            <Route path='/skills' component={Skills} />    
+            <Route path='/skills' component={Skills} />   
+            <Route path='/loader' component={Loader} />    
           </Router>
         </Router>
       </div>

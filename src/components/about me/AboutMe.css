@@ -1,27 +1,71 @@
 .aboutMe {
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  height: 80vh;
-}
-
-.text {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.aboutLeft {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: rgba(8, 68, 164, 0.733);
+  margin-right: 5px;      
+}
+
+.aboutLeft>h1, .aboutRight>h1 {
+  text-align: center;
+  background-color: white;
+  padding: 10px 0;
+  letter-spacing: 6px;
+  color: #ff5d55;
+  font-weight: 400;
+}
+
+.aboutLeft>p {
+  padding: 0 35px 10px;
+  color: white;
+  margin: 0;
+  font-size: 15px;
+}
+
+.aboutRight {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: white;
+}
+
+.aboutRight>p {
+  padding: 0 20px 10px;
+}
+
+/*.aboutRight>h1 {
+  font-size: 25px;
+  margin: 30px 0 20px;
+  text-align: center;
+  color: #ff5d55;
+  font-weight: 400;
+  letter-spacing: 2px;
+}*/
+
+.hobbyPhotos {
+  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
 }
 
-.text>p {
-  display: flex;
-  justify-content: center;  
-  font-size: 300px;
-  margin: 0;
-  font-weight: 200;
-  color: rgba(8, 68, 164, 0.473);
+.hobbyPhotos>img {
+  width: 130px;
+  height: 130px;
+  margin: 15px;
 }
 
-.text>span {
-  color: rgb(8, 68, 164);
 
-}
+
+
+
+
+

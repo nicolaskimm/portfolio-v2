@@ -12,10 +12,10 @@ import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram';
 const MainPage = () => {
   return (
     <div className='mainPage'>
-      <div className='leftside'>
+      <div className='portrait'>
         <img src={require('../../views/portrait1.jpg')} alt='photo' />
       </div>
-      <div className='rightside'>
+      <div className='startingpanel'>
         <div className='backLayer'>
           <div className='frontLayer'>
             <p> JOASIA </p>

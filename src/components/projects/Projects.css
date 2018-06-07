@@ -1,16 +1,23 @@
 .projectsGallery {
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  width: 1300px;
+  flex-flow: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .galleryItem {
-  padding: 20px;
-  width: 600px;
+  width: 500px;
   height: 370px;
+  margin: 5px;
+  opacity: 0.2;
+  border: 5px solid #ff5d55;
 }
 
-.galleryItem:hover:before {
-  background-color: rgba(215, 219, 226, 0.6);
-  z-index: 2;
+.galleryItem:hover {
+  border: 5px solid white;
+  opacity: 1;
 }
+
+

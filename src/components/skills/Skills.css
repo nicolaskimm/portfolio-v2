@@ -1,0 +1,53 @@
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.skillbox {
+    min-width: 300px;
+    height: 150px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 10px;
+    background-color: rgba(8, 68, 164, 0.5);
+    color: white;
+    font-size: 60px;
+    position: relative;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.skillbox:hover {
+    flex: 2;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+

@@ -8,7 +8,7 @@
   margin: 0 15%;
 }
 
-.leftside {
+.portrait {
   flex: 1;
   background-color: #f7f6f6;
   max-width: 200px;
@@ -16,7 +16,7 @@
   margin-right: 100px;
 }
 
-.leftside>img {
+.portrait>img {
   width: 195px;
   height: 300px;
   position: relative;
@@ -24,7 +24,7 @@
   left: 60px;
 }
 
-.rightside {
+.startingpanel {
   flex: 3;
   display: flex;
   justify-content: center;
