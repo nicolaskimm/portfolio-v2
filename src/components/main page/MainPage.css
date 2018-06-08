@@ -8,30 +8,26 @@
   margin: 0 15%;
 }
 
-.portrait {
-  flex: 1;
-  background-color: #f7f6f6;
-  max-width: 200px;
-  height: 400px;
-  margin-right: 100px;
+.portrait>img {
+  width: 330px;
+  height: 500px;
+  position: relative;
+  padding: 20px;
+  border: .2px solid #ff5d5538;
 }
 
-.portrait>img {
-  width: 195px;
+.line {
+  margin: 0 60px 0 120px;
   height: 300px;
-  position: relative;
-  top: 50px;
-  left: 60px;
+  border-left: 5px solid #4b5e70;
+  transform: rotateZ(10deg);
 }
 
 .startingpanel {
-  flex: 3;
   display: flex;
+  flex: 3;
   justify-content: center;
   align-items: center;
-  height: 500px;
-  background-color: #f7f6f6;
-
 }
 
 .backLayer {
@@ -49,12 +45,12 @@
   flex-direction: column;
   width: 90%;
   height: 85%;
-  border: 3px solid white;
 }
 
-.frontLayer>p {
-  color: rgba(8, 68, 164, 0.616);
-  font-size: 25px;
+.frontLayer>p:nth-child(-n + 2) {
+  color: #5b7186;
+  font-size: 100px;
+  letter-spacing: 20px;
   font-weight: bold;
   margin: 0;
 }
@@ -64,20 +60,21 @@
 } */
 
 .frontLayer>p:nth-child(2) {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 } 
 
 
 .frontLayer>p:nth-child(4) {
-  color: rgba(8, 68, 164, 0.5);
-  font-size: 15px;
+  color: #ff5d555b;
+  letter-spacing: 1px;
+  font-size: 20px;
   font-weight: lighter;
 }
 
 .frontLayer>h1 {
-  color: #ff5d55;
-  font-size: 30px;
-  letter-spacing: 5px;
+  color: #ff5d55ce;
+  font-size: 36px;
+  letter-spacing: 15px;
 }
 
 .icons {

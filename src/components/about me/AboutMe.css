@@ -1,71 +1,77 @@
 .aboutMe {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  height: 80vh;
+  width: 80vw;
   margin: 0 auto;
-  width: 1000px;
+  height: auto;
 }
 
 .aboutLeft {
+  width: 100%;
+  border: 2px solid #f37771b0;
   display: flex;
-  flex-direction: column;
-  width: 50%;
-  background-color: rgba(8, 68, 164, 0.733);
-  margin-right: 5px;      
-}
-
-.aboutLeft>h1, .aboutRight>h1 {
-  text-align: center;
-  background-color: white;
-  padding: 10px 0;
-  letter-spacing: 6px;
-  color: #ff5d55;
-  font-weight: 400;
+  margin-bottom: 300px;
 }
 
 .aboutLeft>p {
-  padding: 0 35px 10px;
-  color: white;
+  padding: 45px;
+  color: #a09090f8;
   margin: 0;
-  font-size: 15px;
+  font-size: 40px;
+}
+
+.aboutLeft span {
+  color: rgb(172, 74, 74);
+  letter-spacing: 5px;
 }
 
 .aboutRight {
   display: flex;
-  flex-direction: column;
-  width: 50%;
-  background-color: white;
+  flex-direction: row;
+  flex-flow: row wrap;
+  width: 100%;
 }
-
-.aboutRight>p {
-  padding: 0 20px 10px;
-}
-
-/*.aboutRight>h1 {
-  font-size: 25px;
-  margin: 30px 0 20px;
-  text-align: center;
-  color: #ff5d55;
-  font-weight: 400;
-  letter-spacing: 2px;
-}*/
 
 .hobbyPhotos {
+  width: 100%;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: center;
 }
 
-.hobbyPhotos>img {
-  width: 130px;
-  height: 130px;
-  margin: 15px;
+.hobby1 {
+  background-image: url('../../views/cinema.jpeg');
+}
+.hobby2 {
+  background-image: url('../../views/baking.jpg');
+}
+.hobby3 {
+  background-image: url('../../views/music.jpeg');
+}
+.hobby4 {
+  background-image: url('../../views/videogames.jpg');
+}
+.hobby5 {
+  background-image: url('../../views/boardgames.jpeg');
+}
+.hobby6 {
+  background-image: url('../../views/ceramic.jpg');
 }
 
+.hobby {
+  width: 300px;
+  height: 300px;
+  margin: 9px;
+  transition: .5s ease-in-out;
+  background-size: 100%  100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-
-
-
-
+.hobby:hover {
+  background-size: 130% 130%;
+  position: relative;
+}
 

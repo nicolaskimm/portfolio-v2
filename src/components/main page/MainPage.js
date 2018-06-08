@@ -13,8 +13,9 @@ const MainPage = () => {
   return (
     <div className='mainPage'>
       <div className='portrait'>
-        <img src={require('../../views/portrait1.jpg')} alt='photo' />
+        <img src={require('../../views/portrait2.jpg')} alt='photo' />
       </div>
+      <div className='line'></div>
       <div className='startingpanel'>
         <div className='backLayer'>
           <div className='frontLayer'>

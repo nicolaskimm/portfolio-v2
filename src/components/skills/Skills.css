@@ -1,15 +1,50 @@
 .skills {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-flow: row wrap;
-    margin: 0 auto;
-    max-width: 1200px;
-    margin-top: 100px;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.skillsLeft {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.divLine {
+  display: flex;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.skillsLine {
+  border-right: 10px solid #ff5d55a9;
+  height: 100%;
+  margin: 0 20px;
+}
+
+.skillsRight {
+  width: 40%;
+}
+
+.skillsRight>p {
+  color: rgb(194, 189, 189);
+  font-size: 30px;
 }
 
 .skillbox {
+  font-size: 130px;
+  color: #ff5d55a9;
+  margin: 0 30px;
+}
+
+/*.skillbox {
     min-width: 300px;
     height: 150px;
     display: flex;
@@ -40,7 +75,7 @@
 .skillbox:hover {
     flex: 2;
     opacity: 1;
-}
+}*/
 
 
 
