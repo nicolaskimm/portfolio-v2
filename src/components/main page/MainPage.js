@@ -15,31 +15,26 @@ const MainPage = () => {
       <div className='portrait'>
         <img src={require('../../views/portrait2.jpg')} alt='photo' />
       </div>
-      <div className='line'></div>
-      <div className='startingpanel'>
-        <div className='backLayer'>
-          <div className='frontLayer'>
-            <p> JOASIA </p>
-            <p> KRĘŻOŁEK </p>
-            <h1> junior web developer </h1>
-            <p> MongoDB / Express / React / Node.js </p>
-            <div className='icons'>
-              <div className='socialIcon'>
-              <FontAwesomeIcon icon={faFacebook} />
-              </div>
-              <div className='socialIcon'>
-                <FontAwesomeIcon icon={faSteam} />
-              </div>
-              <div className='socialIcon'>
-                <FontAwesomeIcon icon={faInstagram} />
-              </div>
-              <div className='socialIcon'>
-                <FontAwesomeIcon icon={faGithub} />
-              </div>
-              <div className='socialIcon'>
-                <FontAwesomeIcon icon={faLinkedin} />
-              </div>
-            </div>
+      <div className='startingPanel'>
+        <p> JOASIA </p>
+        <p> KRĘŻOŁEK </p>
+        <h1> junior web developer </h1>
+        <p> MongoDB / Express / React / Node.js </p>
+        <div className='icons'>
+          <div className='socialIcon'>
+            <FontAwesomeIcon icon={faFacebook} />
+          </div>
+          <div className='socialIcon'>
+            <FontAwesomeIcon icon={faSteam} />
+          </div>
+          <div className='socialIcon'>
+            <FontAwesomeIcon icon={faInstagram} />
+          </div>
+          <div className='socialIcon'>
+            <FontAwesomeIcon icon={faGithub} />
+          </div>
+          <div className='socialIcon'>
+            <FontAwesomeIcon icon={faLinkedin} />
           </div>
         </div>
       </div>

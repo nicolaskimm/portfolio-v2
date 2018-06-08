@@ -1,77 +1,55 @@
 .mainPage {
   margin: 0;
+  height: 80vh;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-  margin: 0 15%;
+}
+
+.portrait {
+  width: 30%;
+  display: flex;
+  justify-content: center;
 }
 
 .portrait>img {
   width: 330px;
   height: 500px;
-  position: relative;
   padding: 20px;
   border: .2px solid #ff5d5538;
 }
 
-.line {
-  margin: 0 60px 0 120px;
-  height: 300px;
-  border-left: 5px solid #4b5e70;
-  transform: rotateZ(10deg);
-}
-
-.startingpanel {
-  display: flex;
-  flex: 3;
-  justify-content: center;
-  align-items: center;
-}
-
-.backLayer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+.startingPanel {
+  width: 50%;
   height: 100%;
-}
-
-.frontLayer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  width: 90%;
-  height: 85%;
 }
 
-.frontLayer>p:nth-child(-n + 2) {
+.startingPanel>p:nth-child(-n + 2) {
   color: #5b7186;
-  font-size: 100px;
+  font-size: 120px;
   letter-spacing: 20px;
   font-weight: bold;
   margin: 0;
 }
 
-/*.frontLayer>p:nth-child(1) {
-  margin-top: 20px;
-} */
-
-.frontLayer>p:nth-child(2) {
+.startingPanel>p:nth-child(2) {
   margin-bottom: 40px;
 } 
 
-
-.frontLayer>p:nth-child(4) {
+.startingPanel>p:nth-child(4) {
   color: #ff5d555b;
   letter-spacing: 1px;
   font-size: 20px;
   font-weight: lighter;
 }
 
-.frontLayer>h1 {
+.startingPanel>h1 {
   color: #ff5d55ce;
   font-size: 36px;
   letter-spacing: 15px;
@@ -84,14 +62,104 @@
 }
 
 .socialIcon {
-  margin: 40px 8px 0;
+  margin: 30px 8px 0;
   color: rgb(8, 68, 164);
   font-size: 17px;
-  z-index: 1;
 }
 
 .socialIcon:hover {
   opacity: 0.5;
+}
+
+
+
+/*****************************************/
+
+@media (max-width: 1440px) {
+  .mainPage {
+    height: 60vh;
+  }
+
+  .portrait>img {
+    width: 280px;
+    height: 425px;
+  }
+
+  .startingPanel {
+    margin-left: 20px;
+  }
+
+  .startingPanel>p:nth-child(-n + 2) {
+    font-size: 80px;
+    letter-spacing: 10px;
+  }
+
+  .startingPanel>p:nth-child(4) {
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  
+  .startingPanel>h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+}
+
+/* **************************************** */
+@media (max-width: 1024px) {
+  .portrait>img {
+    width: 230px;
+    height: 350px;
+  }
+
+  .startingPanel>p:nth-child(-n + 2) {
+    font-size: 60px;
+    letter-spacing: 10px;
+  }
+
+  .startingPanel>p:nth-child(4) {
+    letter-spacing: 0;
+    font-size: 15px;
+  }
+  
+  .startingPanel>h1 {
+    font-size: 21px;
+    letter-spacing: 3px;
+  }
+}
+
+/* **************************************** */
+
+@media (max-width: 767px) {
+  .portrait>img {
+    margin: 0 25px 0 0;
+    width: 180px;
+    height: 275px;
+  }
+
+  .startingPanel>p:nth-child(-n + 2) {
+    font-size: 30px;
+    letter-spacing: 10px;
+  }
+
+  .startingPanel>p:nth-child(4) {
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+  
+  .startingPanel>h1 {
+    font-size: 15px;
+    letter-spacing: 10px;
+  }
+}
+  
+
+/* **************************************** */
+
+@media (max-width: 520px) {
+  .portrait>img {
+    display: none;
+  }
 }
 
 
