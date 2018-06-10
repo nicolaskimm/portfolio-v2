@@ -7,6 +7,7 @@ import AboutMe from './components/about me/AboutMe';
 import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
 import Loader from './components/Loader/Loader';
+import Contact from './components/contact/Contact';
 import './App.css';
 
 class App extends Component {
@@ -42,6 +43,5 @@ class App extends Component {
   }
 }
 
-const Contact = () => <h1> oto kontakt </h1>
 
 export default App;

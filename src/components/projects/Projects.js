@@ -4,10 +4,24 @@ import './Projects.css';
 const Projects = () => {
   return (
     <div className='projectsGallery'>
-      <img className='galleryItem' src={require('../../views/kanban.jpg')} alt='kanban' />
-      <img className='galleryItem' src={require('../../views/scorekeeper.jpg')} alt='scorekeeper' />
-      <img className='galleryItem' src={require('../../views/kanban.jpg')} alt='kanban' />
-      <img className='galleryItem' src={require('../../views/scorekeeper.jpg')} alt='scorekeeper' />
+      <div className='project1 project'>
+        <img className='galleryItem' src={require('../../views/kanban.jpg')} alt='kanban' />
+      </div>
+      <div className='projetc2 project'>
+        <img className='galleryItem' src={require('../../views/scorekeeper.jpg')} alt='scorekeeper' />
+      </div>
+      <div className='projetc3 project'>
+        <img className='galleryItem' src={require('../../views/kanban.jpg')} alt='kanban' />
+      </div>
+      <div className='projetc4 project'>
+        <img className='galleryItem' src={require('../../views/kanban.jpg')} alt='kanban' />
+      </div>
+      <div className='projetc5 project'>
+        <img className='galleryItem' src={require('../../views/scorekeeper.jpg')} alt='scorekeeper' />
+      </div>
+      <div className='projetc6 project'>
+        <img className='galleryItem' src={require('../../views/kanban.jpg')} alt='kanban' />
+      </div>      
     </div>
   )
 }
