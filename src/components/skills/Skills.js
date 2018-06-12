@@ -1,6 +1,5 @@
 import React from 'react';
 import './Skills.css';
-import fontawesome from '@fortawesome/fontawesome'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import faReact from '@fortawesome/fontawesome-free-brands/faReact';
 import faJs from '@fortawesome/fontawesome-free-brands/faJs';
@@ -10,38 +9,42 @@ import faCss3 from '@fortawesome/fontawesome-free-brands/faCss3';
 import faSass from '@fortawesome/fontawesome-free-brands/faSass';
 import faGithub from '@fortawesome/fontawesome-free-brands/faGithub';
 import faNpm from '@fortawesome/fontawesome-free-brands/faNpm';
-
-
+import { CSSTransitionGroup } from 'react-transition-group';
 
 
 const Skills = () => {
   return (
     <div className='skills'>
       <div className='skillsLeft'>
-        <div className='skillbox skill1'>
-          <FontAwesomeIcon icon={faHtml5} />
-        </div>
-        <div className='skillbox skill2'>
-          <FontAwesomeIcon icon={faCss3} />
-        </div>
-        <div className='skillbox skill3'>
-          <FontAwesomeIcon icon={faSass} />
-        </div>
-        <div className='skillbox skill4'>
-          <FontAwesomeIcon icon={faJs} />
-        </div>
-        <div className='skillbox skill5'>
-          <FontAwesomeIcon icon={faReact} />
-        </div>
-        <div className='skillbox skill6'>
-          <FontAwesomeIcon icon={faNodeJs} />
-        </div>
-        <div className='skillbox skill3'>
-          <FontAwesomeIcon icon={faGithub} />
-        </div>
-        <div className='skillbox skill4'>
-          <FontAwesomeIcon icon={faNpm} />
-        </div>
+        <CSSTransitionGroup
+          transitionName="skillstransition"
+          transitionAppear={ true }
+          transitionAppearTimeout= {1000}>
+          <div className='skillbox skill1'>
+            <FontAwesomeIcon icon={faHtml5} />
+          </div>
+          <div className='skillbox skill2'>
+            <FontAwesomeIcon icon={faCss3} />
+          </div>
+          <div className='skillbox skill3'>
+            <FontAwesomeIcon icon={faSass} />
+          </div>
+          <div className='skillbox skill4'>
+            <FontAwesomeIcon icon={faJs} />
+          </div>
+          <div className='skillbox skill5'>
+            <FontAwesomeIcon icon={faReact} />
+          </div>
+          <div className='skillbox skill6'>
+            <FontAwesomeIcon icon={faNodeJs} />
+          </div>
+          <div className='skillbox skill3'>
+            <FontAwesomeIcon icon={faGithub} />
+          </div>
+          <div className='skillbox skill4'>
+            <FontAwesomeIcon icon={faNpm} />
+          </div>
+        </CSSTransitionGroup>
       </div>
       <div className='divLine'><div className='skillsLine'></div></div>
       <div className='skillsRight'>

@@ -1,6 +1,6 @@
 .contact {
   margin: 0;
-  width: 100vw;
+  width: 100%;
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -9,14 +9,14 @@
 }
 
 .contact>h1 {
-  margin-bottom: 100px;
-  font-size: 70px;
+  margin-bottom: 50px;
+  font-size: 50px;
   letter-spacing: 2.5px;
   color: #94a9bd;
 }
 
 .contactLinks {
-  width: 75%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -25,7 +25,7 @@
 .official, .social, .cool {
   display: flex;
   flex-direction: column;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .official>p {
@@ -43,6 +43,10 @@
 }
 
 .official>a:hover, .cool>a:hover, .social>a:hover {
+  color: #e48480;  
+}
+
+.official>p:hover {
   color: #e48480;  
 }
 

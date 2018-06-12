@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   width: 90vw;
-  height: 100%;
+  height: 80vh;
   margin: 0 auto;
 }
 
@@ -11,7 +11,11 @@
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  justify-content: center;
+}
+
+.skillLeft>span {
+  width: 100%;
+  height: 100%;
 }
 
 .divLine {
@@ -20,7 +24,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .skillsLine {
@@ -35,47 +38,28 @@
 
 .skillsRight>p {
   color: rgb(194, 189, 189);
-  font-size: 25px;
+  font-size: 21px;
 }
 
 .skillbox {
-  font-size: 130px;
+  display: flex;
+  flex-direction: row wrap;
+  font-size: 80px;
   color: #ff5d55a9;
-  margin: 0 30px;
 }
 
-/*.skillbox {
-    min-width: 300px;
-    height: 150px;
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    margin: 0 10px 10px;
-    background-color: rgba(8, 68, 164, 0.5);
-    color: white;
-    font-size: 60px;
-    position: relative;
-    transition: 0.5s;
-    box-sizing: border-box;
+.skillstransition-appear {
+  opacity: 0.1;
+  transform: translateX(80px);
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
+.skillstransition-appear.skillstransition-appear-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 1.3s ease;
 }
 
-.skillbox:hover {
-    flex: 2;
-    opacity: 1;
-}*/
+
 
 
 
