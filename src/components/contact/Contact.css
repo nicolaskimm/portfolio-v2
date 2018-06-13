@@ -31,6 +31,7 @@
 .official>p {
   margin: 30px 0 0;
   color: #81a0bd;
+  transition: .8s;
 }
 
 .official>a, .cool>a, .social>a {
