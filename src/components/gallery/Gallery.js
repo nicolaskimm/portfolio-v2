@@ -3,15 +3,15 @@ import './Gallery.css';
 
 const Gallery = () => {
     return (
-        <div className='gallerydiv'>
-            <div className='hobby1 hobby'></div>
-            <div className='hobby2 hobby'></div>
-            <div className='hobby3 hobby'></div>
-            <div className='hobby4 hobby'></div>
-            <div className='hobby5 hobby'></div>
-            <div className='hobby6 hobby'></div>
+        <div className='gallery'>
+            <div className='gallery__item1'></div>
+            <div className='gallery__item2'></div>
+            <div className='gallery__item3'></div>
+            <div className='gallery__item4'></div>
+            <div className='gallery__item5'></div>
+            <div className='gallery__item6'></div>
         </div>
     )
-}
+};
 
 export default Gallery;

@@ -1,4 +1,4 @@
-.aboutMe {
+.about-me {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -8,46 +8,60 @@
   box-sizing: border-box;
 }
 
-.aboutLeft {
+.about-me__left {
   width: 60%;
   height: auto;
   border: 2px solid #f37771b0;
   margin-right: 10px;
 }
 
-/*.aboutLeft>p {
-  padding: 30px;
-  color: #a09090f8;
-  margin: 0;
-  font-size: 25px;
-}*/
-
-.aboutRight {
+.about-me__right {
   width: 40%;
   height: 100%;
 }
 
-.textme {
+.about-me__text {
   padding: 25px;
   color: #a09090f8;
   margin: 0;
-  font-size: 22px;
+  font-size: 18.3px;
   letter-spacing: 0;
 }
 
-.example-appear {
-  opacity: 0.01;
-  transform: translateY(-60px);
+.about-me__text_transition-appear {
+  opacity: 0;
 }
 
-.example-appear.example-appear-active {
+.about-me__text_transition-appear.about-me__text_transition-appear-active {
   opacity: 1;
-  transform: translateY(0);
-  transition: all 1.2s ease-out;
+  transition: 2.5s ease-in-out;
 }
 
-.buttondisactive {
+.about-me__button-active {
+  background-color: transparent;
+  border: 1px solid white;;
+  color: #f37771b0;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  width: 130px;
+  height: 200px;
+  animation: shakethat 6.5s infinite;
+}
+
+.about-me__button-active:hover {
+  animation: none;
+}
+
+.about-me__button-disactive {
   display: none;
+}
+
+@keyframes shakethat {
+  20% {transform: rotateZ(10deg);}
+  40% {transform: rotateZ(-10deg);}
+  60% {transform: rotateZ(10deg);}
+  80% {transform: rotateZ(-10deg);}
+  100% {transform: rotateZ(0deg);}
 }
 
 

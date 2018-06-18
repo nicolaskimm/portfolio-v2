@@ -3,9 +3,56 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-.loader>h1 {
-    font-size: 50px;
-    color: red;
+div[class^="circle_"] {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+.circle_1 {
+    background-color: #ffa09dcc;
+    width: 150px;
+    height: 150px;
+
+}
+
+.circle_2 {
+    background-color: #ff8b85c5;
+    width: 250px;
+    height: 250px;
+
+
+}
+
+.circle_3 {
+    background-color: #fe5e56b4;
+    width: 350px;
+    height: 350px;
+
+}
+
+.circle_4 {
+    background-color: #fe5e568c;
+    width: 450px;
+    height: 450px;
+
+}
+
+.circle_5 {
+    background-color: #fe5e5667;
+    width: 550px;
+    height: 550px;
+
+}
+
+.outside_circle {
+    width: 650px;
+    height: 650px;
+    background-color: #fe5f563f;
+    position: relative;
+    border-radius: 50%;
 }
