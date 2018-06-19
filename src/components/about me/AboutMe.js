@@ -35,7 +35,7 @@ class AboutMe extends React.Component {
             I invested my time in Kodilla bootcamp. Now I know that I want to develop my 
             skills in Javascript and ReactJS library. But programming isn't of course 100% of me. <br />
             <br />
-            First of all, I'm an euro-gamer, that's why I love board games with minimal (losowoscia), I'm more 'calculate & plan' type of human. NO ADVENTURES, ONLY COUNTING! 
+            First of all, I'm an euro-gamer, that's why I love board games with minimal randomness, I'm more 'calculate & plan' type of human. NO ADVENTURES, ONLY COUNTING! 
             (I'm kidding, sometimes I can throw some dice and fight monsters). Next on my list are video games. Enough to say that 
             I love playing them since I was kid. I don't know what my first game was (beside drawing abstract art in paint), but 
             I remember games like Return to Castle Wolfenstein, Tomb Raider, Crash Bandicoot! My last bigger game I played was Evil Within 2.
