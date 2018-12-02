@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
 import { CSSTransitionGroup } from 'react-transition-group';
-import Gallery from '../gallery/Gallery';
+import Gallery from '../Gallery/Gallery';
 
 class AboutMe extends React.Component {
   constructor() {
