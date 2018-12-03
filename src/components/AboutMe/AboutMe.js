@@ -2,6 +2,15 @@ import React from 'react';
 import './AboutMe.css';
 import { CSSTransitionGroup } from 'react-transition-group';
 import Gallery from '../Gallery/Gallery';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import faReact from '@fortawesome/fontawesome-free-brands/faReact';
+import faJs from '@fortawesome/fontawesome-free-brands/faJs';
+import faNodeJs from '@fortawesome/fontawesome-free-brands/faNodeJs';
+import faHtml5 from '@fortawesome/fontawesome-free-brands/faHtml5';
+import faCss3 from '@fortawesome/fontawesome-free-brands/faCss3';
+import faSass from '@fortawesome/fontawesome-free-brands/faSass';
+import faGithub from '@fortawesome/fontawesome-free-brands/faGithub';
+import faNpm from '@fortawesome/fontawesome-free-brands/faNpm';
 
 class AboutMe extends React.Component {
   constructor() {
@@ -28,29 +37,57 @@ class AboutMe extends React.Component {
             transitionAppear={ true }
             transitionAppearTimeout= {2500}>
             <p className='about-me__text'>
-            I never thought that one day I will be an aspiring programmist. My story doesn't start with 'since I was kid 
-            I loved computers and spent hours learning how they work and what possibilites they give'. I was more like 'oh yes, 
-            I love might and magic 3 and oh my god, my computer can run crazy taxi 3!'. My interest in programming started few 
-            months ago. It began with Codecademy platform and 'Programuj dziewczyno' workshop. After a month of learning on my own 
-            I invested my time in Kodilla bootcamp. Now I know that I want to develop my 
-            skills in Javascript and ReactJS library. But programming isn't of course 100% of me. <br />
-            <br />
-            First of all, I'm an euro-gamer, that's why I love board games with minimal randomness, I'm more 'calculate & plan' type of human. NO ADVENTURES, ONLY COUNTING! 
-            (I'm kidding, sometimes I can throw some dice and fight monsters). Next on my list are video games. Enough to say that 
-            I love playing them since I was kid. I don't know what my first game was (beside drawing abstract art in paint), but 
-            I remember games like Return to Castle Wolfenstein, Tomb Raider, Crash Bandicoot! My last bigger game I played was Evil Within 2.
-            At this moment I will always enjoy few rounds in Fortnite. Favourite game of all time? Easy. Last Of Us. 
-            I also like baking and cooking. It's very relaxing and I really love pies! Like most people on earth I love movies and
-            TV shows! Last good movie I've seen was "I, Tonya" and last good shows: maybe "Stranger Things" & "Bates Motel". 
-            As it comes to music I still remember Nick Cave performance in Warsaw. The best. But right now for most of my time I'm listening Billy Eilish (youtube). 
-            Last thing on my list is ceramic. My friend works in this industry and she showed me the ceramic magic. Last thing I made was lovely pot plant 
-            which look like Groot. So much talent.  
+              <span className='about-me__text-header'>Programming.</span> I never thought that one day I will be an aspiring programmist. I was more like 'yeah, sure, programming? And later scholarship on Hogwarth'. 
+              My interest in programming started about a year ago. It began with Codecademy platform and 'Programuj dziewczyno' workshop. After a month of learning on my own 
+              I invested my time in Kodilla bootcamp. And I loved it. It was hard, but learning programming is a great thing. I love it. Sometimes I want to cry because of the problems, but I'm still coming back
+              and not giving up. During this six months I get familiar with many technologies. Most of projects were based on Javascript and it's library - ReactJs.
+              We started with HTML5, CSS, Sass and BootStrap. I get familiar with terms like RWD, Flexbox, Grid System, BEM Methodology. 
+              Throughout all bootcamp I was using Git and Github - we cover basic commands like push, pull, branches system etc. Next came JS with JQuery, AJAX and Node.js ecosystem with
+              NPM package manager. I was introduce to newer standard of ECMAScript - ES6. But React took most of my time. I really like the structure and the concepts.
+              Next was Express and Redux, and in the end MongoDB and simple unit tests using Mocha and Jest. I cover the basics with most of them, after all I am just beginner in IT world. 
+              Since that I am practicing a lot with React. <br />
+              <br />
+              <span className='about-me__text-header'>Also.</span> I'm a video and board gamer lover (eurogames for life!). I love to create and try new things! Like creating ceramic magic in my friends' workshop. Also few months ago I adopted marvellous dog.
+              His name is Elon (because he is super smart!). He and programming are my time consumers. But I try to have some time to waste on Netflix and chill.<br />
+              Few important things: <br />
+              1. Favourite game: Last of Us. <br />
+              2. Favourite board game: Everyone I have. <br />
+              3. Favourite musician: Nick Cave. <br />
+              4. Last great event: (beside adopting Elon) Nick Caves' concert!
             </p>
           </CSSTransitionGroup>
         </div>
         <div className='about-me__right'>
-          <button onClick={this.handleClick.bind(this)} className={this.state.className}> nah, enough reading, show me some pictures!</button>
-          { this.state.isVisible ? <Gallery /> : null }
+          <CSSTransitionGroup
+            transitionName="skillstransition"
+            transitionAppear={ true }
+            transitionAppearTimeout= {1300}>
+            <div className='skillbox'>
+              <i className='skillbox-skillIcon'><FontAwesomeIcon icon={faHtml5} /></i>
+            </div>
+            <div className='skillbox skill2'>
+              <i className='skillbox-skillIcon'><FontAwesomeIcon icon={faCss3} /></i>
+            </div>
+            <div className='skillbox skill3'>
+              <i className='skillbox-skillIcon'><FontAwesomeIcon icon={faSass} /></i>
+            </div>
+            <div className='skillbox skill4'>
+              <i className='skillbox-skillIcon'><FontAwesomeIcon icon={faJs} /></i>
+            </div>
+            <div className='skillbox skill5'>
+              <i className='skillbox-skillIcon'><FontAwesomeIcon icon={faReact} /></i>
+            </div>
+            <div className='skillbox skill6'>
+              <i className='skillbox-skillIcon'><FontAwesomeIcon icon={faNodeJs} /></i>
+            </div>
+            <div className='skillbox skill3'>
+              <i className='skillbox-skillIcon'><FontAwesomeIcon icon={faGithub} /></i>
+            </div>
+            <div className='skillbox skill4'>
+              <i className='skillbox-skillIcon'><FontAwesomeIcon icon={faNpm} /></i>
+            </div>
+          </CSSTransitionGroup>
+          
         </div>
       </div>
     )
@@ -58,3 +95,10 @@ class AboutMe extends React.Component {
 }
 
 export default AboutMe;
+
+/*
+<div className='about-me__right'>
+          <button onClick={this.handleClick.bind(this)} className={this.state.className}> nah, enough reading, show me some pictures!</button>
+          { this.state.isVisible ? <Gallery /> : null }
+        </div>
+        */

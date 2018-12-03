@@ -27,13 +27,14 @@
 }
 
 div[class^="gallery__item"] {
-    width: 45%;
+    width: 40%;
     height: 31.2%;
     margin: 9px;
     transition: .5s ease-in-out;
     background-size: 100%  100%;
     background-repeat: no-repeat;
     background-position: center;
+    border: 2px solid white;
 }
 
 div[class^="gallery__item"]:hover {

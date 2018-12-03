@@ -16,7 +16,7 @@ class MainPage extends React.Component {
           <p> JOASIA </p>
           <p> KRĘŻOŁEK </p>
           <h1> junior web developer </h1>
-          <p> MongoDB / Express / React / Node.js </p>
+          <p> JavaScript / React / Node.js </p>
         </div>
       </div>
     )

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skills.css';
+//import './Skills.css';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import faReact from '@fortawesome/fontawesome-free-brands/faReact';
 import faJs from '@fortawesome/fontawesome-free-brands/faJs';

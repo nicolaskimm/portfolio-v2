@@ -16,13 +16,13 @@ class App extends Component {
   };
 
   componentDidMount() {
-    setTimeout(() => this.setState({ loading: false }), 1000); 
+    setTimeout(() => this.setState({ loading: false }), 2000); 
   }
 
   render() {
     const { loading } = this.state;
     
-    if(loading) {
+    if (loading) {
       return <Loader />
     }
 
@@ -35,7 +35,6 @@ class App extends Component {
             <Route path='/aboutme' component={AboutMe} />  
             <Route path='/projects' component={Projects} />  
             <Route path='/skills' component={Skills} />   
-            <Route path='/loader' component={Loader} />    
           </Router>
         </Router>
       </div>
