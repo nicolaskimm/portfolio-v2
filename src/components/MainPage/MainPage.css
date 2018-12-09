@@ -1,175 +1,200 @@
 .mainPage {
   margin: 0;
-  width: 90%;
-  height: 80vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.portrait {
+.mainPage .mainPage__portrait {
   width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-right: 20px;
 }
 
-.portrait>img {
+@media screen and (max-width: 498px) {
+  .mainPage .mainPage__portrait {
+    display: none;
+  }
+}
+
+.mainPage .mainPage__portrait img {
   width: 330px;
   height: 500px;
   padding: 20px;
   border: .2px solid #ff5d5538;
 }
 
-.portrait>img:hover {
+.mainPage .mainPage__portrait img:hover {
   border: .2px solid white;
 }
 
-
-
-.startingPanel {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@media screen and (max-width: 1200px) {
+  .mainPage .mainPage__portrait img {
+    width: 80%;
+    height: 80%;
+  }
 }
 
-.startingPanel>p:nth-child(-n + 2) {
+@media screen and (max-width: 1024px) {
+  .mainPage .mainPage__portrait img {
+    width: 60%;
+    height: 60%;
+  }
+}
+
+.mainPage .mainPage__text {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 498px) {
+  .mainPage .mainPage__text {
+    width: 100%;
+  }
+}
+
+.mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
   color: #5b7186;
-  font-size: 120px;
+  font-size: 100px;
   letter-spacing: 20px;
   font-weight: bold;
   margin: 0;
 }
 
-.startingPanel>p:nth-child(2) {
-  margin-bottom: 40px;
-} 
+@media screen and (max-width: 1200px) {
+  .mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 80px;
+  }
+}
 
-.startingPanel>p:nth-child(4) {
+@media screen and (max-width: 1024px) {
+  .mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 867px) {
+  .mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 30px;
+  }
+}
+
+.mainPage .mainPage__text p:nth-child(2) {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 867px) {
+  .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 30px;
+  }
+}
+
+.mainPage .mainPage__text p:nth-child(4) {
   color: #ff5d555b;
   letter-spacing: 1px;
   font-size: 20px;
   font-weight: lighter;
 }
 
-.startingPanel>h1 {
+@media screen and (max-width: 1024px) {
+  .mainPage .mainPage__text p:nth-child(4) {
+    font-size: 17.5px;
+  }
+}
+
+@media screen and (max-width: 867px) {
+  .mainPage .mainPage__text p:nth-child(4) {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mainPage .mainPage__text p:nth-child(4) {
+    font-size: 13px;
+  }
+}
+
+.mainPage .mainPage__text h1 {
   color: #ff5d55ce;
   font-size: 36px;
   letter-spacing: 15px;
 }
 
-.icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+@media screen and (max-width: 1200px) {
+  .mainPage .mainPage__text h1 {
+    font-size: 25px;
+  }
 }
 
-.socialIcon {
-  margin: 30px 8px 0;
-  color: rgb(8, 68, 164);
-  font-size: 17px;
+@media screen and (max-width: 1024px) {
+  .mainPage .mainPage__text h1 {
+    font-size: 20px;
+  }
 }
 
-.socialIcon:hover {
-  opacity: 0.5;
-}
-
-
-
-/*****************************************/
-
-@media (max-width: 1440px) {
-  .mainPage {
-    height: 60vh;
-  }
-
-  .portrait>img {
-    width: 280px;
-    height: 425px;
-  }
-
-  .startingPanel {
-    margin-left: 20px;
-  }
-
-  .startingPanel>p:nth-child(-n + 2) {
-    font-size: 80px;
-    letter-spacing: 10px;
-  }
-
-  .startingPanel>p:nth-child(4) {
-    letter-spacing: 1px;
+@media screen and (max-width: 867px) {
+  .mainPage .mainPage__text h1 {
+    letter-spacing: 8px;
     font-size: 18px;
   }
-  
-  .startingPanel>h1 {
-    font-size: 30px;
-    letter-spacing: 3px;
-  }
 }
 
-/* **************************************** */
-@media (max-width: 1024px) {
-  .portrait>img {
-    width: 230px;
-    height: 350px;
-  }
-
-  .startingPanel>p:nth-child(-n + 2) {
-    font-size: 60px;
-    letter-spacing: 10px;
-  }
-
-  .startingPanel>p:nth-child(4) {
-    letter-spacing: 0;
+@media screen and (max-width: 640px) {
+  .mainPage .mainPage__text h1 {
     font-size: 15px;
-  }
-  
-  .startingPanel>h1 {
-    font-size: 21px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
   }
 }
-
-/* **************************************** */
-
-@media (max-width: 767px) {
-  .portrait>img {
-    margin: 0 25px 0 0;
-    width: 180px;
-    height: 275px;
-  }
-
-  .startingPanel>p:nth-child(-n + 2) {
-    font-size: 30px;
-    letter-spacing: 10px;
-  }
-
-  .startingPanel>p:nth-child(4) {
-    letter-spacing: 1px;
-    font-size: 10px;
-  }
-  
-  .startingPanel>h1 {
-    font-size: 15px;
-    letter-spacing: 10px;
-  }
-}
-  
-
-/* **************************************** */
-
-@media (max-width: 520px) {
-  .portrait>img {
-    display: none;
-  }
-}
-
-
-
-
-
+/*# sourceMappingURL=MainPage.css.map */

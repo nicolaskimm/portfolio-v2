@@ -9,10 +9,10 @@ class MainPage extends React.Component {
   render() {
     return (
       <div className='mainPage'>
-        <div className='portrait'>
+        <div className='mainPage__portrait'>
           <HoverImage src={yourFile} hoverSrc={yourFileHover} alt='photo' />
         </div>
-        <div className='startingPanel'>
+        <div className='mainPage__text'>
           <p> JOASIA </p>
           <p> KRĘŻOŁEK </p>
           <h1> junior web developer </h1>

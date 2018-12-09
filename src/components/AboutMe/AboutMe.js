@@ -59,10 +59,11 @@ class AboutMe extends React.Component {
         </div>
         <div className='about-me__right'>
           <CSSTransitionGroup
+            className='skillbox'
             transitionName="skillstransition"
             transitionAppear={ true }
             transitionAppearTimeout= {1300}>
-            <div className='skillbox'>
+            <div className='skillbox skill1'>
               <i className='skillbox-skillIcon'><FontAwesomeIcon icon={faHtml5} /></i>
             </div>
             <div className='skillbox skill2'>
