@@ -1,8 +1,8 @@
 import React from 'react';
 import './MainPage.css';
 import HoverImage from "react-hover-image";
-import yourFile from "../../views/portrait2.jpg";
-import yourFileHover from "../../views/portrait1.jpg";
+import yourFile from "../../../views/portrait2.jpg";
+import yourFileHover from "../../../views/portrait1.jpg";
 
 
 class MainPage extends React.Component {
