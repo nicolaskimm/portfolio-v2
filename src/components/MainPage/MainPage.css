@@ -1,0 +1,200 @@
+.mainPage {
+  margin: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainPage .mainPage__portrait {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 498px) {
+  .mainPage .mainPage__portrait {
+    display: none;
+  }
+}
+
+.mainPage .mainPage__portrait img {
+  width: 330px;
+  height: 500px;
+  padding: 20px;
+  border: .2px solid #ff5d5538;
+}
+
+.mainPage .mainPage__portrait img:hover {
+  border: .2px solid white;
+}
+
+@media screen and (max-width: 1200px) {
+  .mainPage .mainPage__portrait img {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mainPage .mainPage__portrait img {
+    width: 60%;
+    height: 60%;
+  }
+}
+
+.mainPage .mainPage__text {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 498px) {
+  .mainPage .mainPage__text {
+    width: 100%;
+  }
+}
+
+.mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
+  color: #5b7186;
+  font-size: 100px;
+  letter-spacing: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 867px) {
+  .mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 30px;
+  }
+}
+
+.mainPage .mainPage__text p:nth-child(2) {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 867px) {
+  .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 30px;
+  }
+}
+
+.mainPage .mainPage__text p:nth-child(4) {
+  color: #ff5d555b;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 1024px) {
+  .mainPage .mainPage__text p:nth-child(4) {
+    font-size: 17.5px;
+  }
+}
+
+@media screen and (max-width: 867px) {
+  .mainPage .mainPage__text p:nth-child(4) {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mainPage .mainPage__text p:nth-child(4) {
+    font-size: 13px;
+  }
+}
+
+.mainPage .mainPage__text h1 {
+  color: #ff5d55ce;
+  font-size: 36px;
+  letter-spacing: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .mainPage .mainPage__text h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mainPage .mainPage__text h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 867px) {
+  .mainPage .mainPage__text h1 {
+    letter-spacing: 8px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mainPage .mainPage__text h1 {
+    font-size: 15px;
+    letter-spacing: 4px;
+  }
+}
+/*# sourceMappingURL=MainPage.css.map */

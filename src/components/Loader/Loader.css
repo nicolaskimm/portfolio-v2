@@ -1,0 +1,72 @@
+.loader {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+div[class^="circle_"] {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+    transition: 1s;
+    animation: loading 1.5s linear 1;
+}
+
+.circle_1 {
+    background-color: #ffa09dcc;
+    width: 150px;
+    height: 150px;
+}
+
+.circle_2 {
+    background-color: #ff8b85c5;
+    width: 250px;
+    height: 250px;
+    animation-delay: 0.2s;
+}
+
+.circle_3 {
+    background-color: #fe5e56b4;
+    width: 350px;
+    height: 350px;
+    animation-delay: 0.4s;
+}
+
+.circle_4 {
+    background-color: #fe5e568c;
+    width: 450px;
+    height: 450px;
+    animation-delay: 0.6s;
+}
+
+.circle_5 {
+    background-color: #fe5e5667;
+    width: 550px;
+    height: 550px;
+    animation-delay: 0.8s;
+}
+
+.outside_circle {
+    width: 650px;
+    height: 650px;
+    background-color: #fe5f563f;
+    position: relative;
+    border-radius: 50%;
+}
+
+@keyframes loading {
+    0% {opacity: 0};
+    10% {opacity: 0.1};
+    20% {opacity: 0.2};
+    30% {opacity: 0.3};
+    40% {opacity: 0.4};
+    50% {opacity: 0.5};
+    60% {opacity: 0.6};
+    70% {opacity: 0.7};
+    80% {opacity: 0.8};
+    90% {opacity: 0.9};
+    100% {opacity: 1};
+}
