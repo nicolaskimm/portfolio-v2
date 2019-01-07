@@ -6,7 +6,7 @@ const Projects = () => {
     <div className='projects'>
       <div className='project'>
         <div className='projectPhoto1 projectPhoto'></div>
-        <p className='projectDescribe'>
+        <div className='projectDescribe'>
           <h1> BGGApp </h1>
           <h3> React / Express / Node.js / Webpack </h3>
           <div className='links'>
@@ -17,11 +17,11 @@ const Projects = () => {
               <a href="https://nicolaskimm.github.io/BGGAppReact/">demo</a>
             </div>
           </div>  
-        </p>
+        </div>
       </div>
       <div className='project'>
         <div className='projectPhoto2 projectPhoto'></div>
-        <p className='projectDescribe'>
+        <div className='projectDescribe'>
           <h1> Budgety </h1>
           <h3> Javascript / ES6 </h3>
           <div className='links'>
@@ -32,11 +32,11 @@ const Projects = () => {
               <a href="https://nicolaskimm.github.io/budgety-/">demo</a>
             </div>
           </div>
-        </p>
+        </div>
       </div>
       <div className='project'>
         <div className='projectPhoto3 projectPhoto'></div>
-        <p className='projectDescribe'>
+        <div className='projectDescribe'>
           <h1> Sudoku </h1>
           <h3> React / Sudoku.js  </h3>
           <div className='links'>
@@ -47,11 +47,11 @@ const Projects = () => {
               <a href="demo">demo</a>
             </div>
           </div> 
-        </p>
+        </div>
       </div>
       <div className='project'>
         <div className='projectPhoto4 projectPhoto'></div>
-        <p className='projectDescribe'>
+        <div className='projectDescribe'>
           <h1> Dice Game </h1>
           <h3> JavaScript </h3>
           <div className='links'>
@@ -62,11 +62,11 @@ const Projects = () => {
               <a href="demo">demo</a>
             </div>
           </div>
-        </p>
+        </div>
       </div>
       <div className='project'>
         <div className='projectPhoto5 projectPhoto'></div>
-        <p className='projectDescribe'>
+        <div className='projectDescribe'>
           <h1> Chat App </h1>
           <h3> React / Express / MongoDB / Socket.IO / Webpack </h3>
           <div className='links'>
@@ -77,11 +77,11 @@ const Projects = () => {
               <a href="demo">demo</a>
             </div>
           </div>
-        </p>
+        </div>
       </div>
       <div className='project'>
         <div className='projectPhoto6 projectPhoto'></div>
-        <p className='projectDescribe'>
+        <div className='projectDescribe'>
           <h1> Landing Page </h1>
           <h3> HTML / CSS / Sass </h3>
           <div className='links'>
@@ -92,7 +92,7 @@ const Projects = () => {
               <a href="https://nicolaskimm.github.io/module_7_7/">demo</a>
             </div>
           </div>
-        </p>
+        </div>
       </div>
     </div>
   )
