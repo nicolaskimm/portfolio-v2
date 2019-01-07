@@ -1,8 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
 import { CSSTransitionGroup } from 'react-transition-group';
-import Gallery from '../Gallery/Gallery';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import faReact from '@fortawesome/fontawesome-free-brands/faReact';
 import faJs from '@fortawesome/fontawesome-free-brands/faJs';
 import faNodeJs from '@fortawesome/fontawesome-free-brands/faNodeJs';
@@ -96,10 +95,3 @@ class AboutMe extends React.Component {
 }
 
 export default AboutMe;
-
-/*
-<div className='about-me__right'>
-          <button onClick={this.handleClick.bind(this)} className={this.state.className}> nah, enough reading, show me some pictures!</button>
-          { this.state.isVisible ? <Gallery /> : null }
-        </div>
-        */
