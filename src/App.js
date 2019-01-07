@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
-import MainPage from './components/MainPage/MainPage';
-import Navigation from './components/Navigation/Navigation';
-import AboutMe from './components/AboutMe/AboutMe';
-import Projects from './components/Projects/Projects';
-import Skills from './components/Skills/Skills';
-import Loader from './components/Loader/Loader';
-import Contact from './components/Contact/Contact';
+import MainPage from './components/MainPage/MainPage.js';
+import Navigation from './components/Navigation/Navigation.js';
+import AboutMe from './components/AboutMe/AboutMe.js';
+import Projects from './components/Projects/Projects.js';
+import Skills from './components/Skills/Skills.js';
+import Loader from './components/Loader/Loader.js';
+import Contact from './components/Contact/Contact.js';
 import './App.css';
 
 class App extends Component {
