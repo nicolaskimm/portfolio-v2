@@ -15,6 +15,10 @@ class App extends Component {
     loading: true
   };
 
+  componentDidMount() {
+    setTimeout(() => this.setState({ loading: false }), 2000); 
+  }
+
   render() {
     const { loading } = this.state;
     
