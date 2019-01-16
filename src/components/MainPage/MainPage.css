@@ -17,7 +17,7 @@
 }
 
 .mainPage .mainPage__portrait {
-  width: 30%;
+  width: 330px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,6 +25,12 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-right: 20px;
+}
+
+@media screen and (max-width: 867px) {
+  .mainPage .mainPage__portrait {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 498px) {
@@ -46,33 +52,36 @@
 
 @media screen and (max-width: 1200px) {
   .mainPage .mainPage__portrait img {
-    width: 80%;
-    height: 80%;
+    width: 300px;
+    height: 470px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .mainPage .mainPage__portrait img {
-    width: 60%;
-    height: 60%;
+    width: 270px;
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 867px) {
+  .mainPage .mainPage__portrait img {
+    border: none;
+    width: 240px;
+    height: 370px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mainPage .mainPage__portrait img {
+    width: 200px;
+    height: 310px;
   }
 }
 
 .mainPage .mainPage__text {
   width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
 }
 
 @media screen and (max-width: 498px) {
@@ -103,13 +112,20 @@
 
 @media screen and (max-width: 867px) {
   .mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 
 @media screen and (max-width: 640px) {
   .mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
     font-size: 30px;
+    letter-spacing: 15px;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 45px;
   }
 }
 
@@ -131,13 +147,19 @@
 
 @media screen and (max-width: 867px) {
   .mainPage .mainPage__text p:nth-child(2) {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 
 @media screen and (max-width: 640px) {
   .mainPage .mainPage__text p:nth-child(2) {
     font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .mainPage .mainPage__text p:nth-child(2) {
+    font-size: 45px;
   }
 }
 
@@ -154,15 +176,15 @@
   }
 }
 
-@media screen and (max-width: 867px) {
-  .mainPage .mainPage__text p:nth-child(4) {
-    font-size: 15px;
-  }
-}
-
 @media screen and (max-width: 640px) {
   .mainPage .mainPage__text p:nth-child(4) {
     font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .mainPage .mainPage__text p:nth-child(4) {
+    font-size: 17px;
   }
 }
 
@@ -187,7 +209,6 @@
 @media screen and (max-width: 867px) {
   .mainPage .mainPage__text h1 {
     letter-spacing: 8px;
-    font-size: 18px;
   }
 }
 
@@ -195,6 +216,13 @@
   .mainPage .mainPage__text h1 {
     font-size: 15px;
     letter-spacing: 4px;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .mainPage .mainPage__text h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
   }
 }
 /*# sourceMappingURL=MainPage.css.map */

@@ -2,10 +2,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -16,6 +12,15 @@
           box-sizing: border-box;
 }
 
+@media screen and (max-width: 560px) {
+  .about-me {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .about-me .about-me__left {
   width: 60%;
   height: auto;
@@ -24,7 +29,15 @@
 
 @media screen and (max-width: 560px) {
   .about-me .about-me__left {
-    width: 70%;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .about-me .about-me__left {
+    width: 100%;
+    margin-right: 0;
   }
 }
 
@@ -103,6 +116,10 @@
   }
 }
 
+.about-me .about-me__left .about-me__text-tech {
+  color: #ff5d55a9;
+}
+
 .about-me .about-me__right {
   width: 40%;
   height: 100%;
@@ -116,11 +133,12 @@
   padding: 25px;
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 560px) {
   .about-me .about-me__right {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin-top: 10px;
   }
 }
 
@@ -140,18 +158,20 @@
           justify-content: center;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 560px) {
   .about-me .about-me__right .skillbox {
-    height: auto;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    width: 100%;
   }
 }
 
 .about-me .about-me__right .skillbox div {
   width: 40%;
+}
+
+@media screen and (max-width: 560px) {
+  .about-me .about-me__right .skillbox div {
+    width: auto;
+  }
 }
 
 .about-me .about-me__right .skillbox div .skillbox-skillIcon {
@@ -174,14 +194,14 @@
 
 @media screen and (max-width: 560px) {
   .about-me .about-me__right .skillbox div .skillbox-skillIcon {
-    font-size: 45px;
+    font-size: 35px;
+    margin-right: 15px;
   }
 }
 
 @media screen and (max-width: 498px) {
   .about-me .about-me__right .skillbox div .skillbox-skillIcon {
-    font-size: 38px;
-    margin-bottom: 50px;
+    font-size: 20px;
   }
 }
 

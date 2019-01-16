@@ -36,6 +36,7 @@ const Contact = () => {
           <div className='contact__social'>
             <h2> social media </h2>
             <a href='https://www.facebook.com/j.krezolek'><FontAwesomeIcon icon={faFacebook} className='contact__icon' /> facebook </a>
+            <a href='https://www.instagram.com/ednickk/'><FontAwesomeIcon icon={faInstagram} className='contact__icon' /> instagram </a>
           </div>
         </CSSTransitionGroup>
         <CSSTransitionGroup
@@ -45,7 +46,6 @@ const Contact = () => {
           <div className='contact__other'>
             <h2> other cool stuff </h2>
             <a href='https://steamcommunity.com/id/nicolaskimm/'><FontAwesomeIcon icon={faSteam} className='contact__icon' /> steam </a>
-            <a href='https://www.instagram.com/ednickk/'><FontAwesomeIcon icon={faInstagram} className='contact__icon' /> instagram </a>
             <a href='https://boardgamegeek.com/plays/bydate/user/nicolaskim/subtype/boardgame'><FontAwesomeIcon icon={faDice} className='contact__icon' /> boardgamegeek </a>
           </div>
         </CSSTransitionGroup>

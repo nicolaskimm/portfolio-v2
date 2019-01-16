@@ -1,11 +1,14 @@
 .about-me {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     width: 90%;
     margin: 0 auto;
     height: auto;
     box-sizing: border-box;
+
+    @media screen and (max-width: 560px) {
+        flex-direction: column;
+    }
   
     .about-me__left {
         width: 60%;
@@ -13,7 +16,13 @@
         margin-right: 10px;
 
         @media screen and (max-width: 560px) {
-            width: 70%;
+            width: 100%;
+            margin-right: 0;       
+        }
+
+        @media screen and (max-width: 498px) {
+            width: 100%;
+            margin-right: 0;
         }
 
         .about-me__text {
@@ -75,6 +84,10 @@
                 font-size: 15px;
             }
         }
+
+        .about-me__text-tech {
+            color: #ff5d55a9;
+        }
     }
 
     .about-me__right {
@@ -84,8 +97,11 @@
         flex-direction: row;
         padding: 25px;
 
-        @media screen and (max-width: 468px) {
-            justify-content: center;           
+        @media screen and (max-width: 560px) {
+            width: 100%; 
+            height: auto;
+            padding: 0;  
+            margin-top: 10px;     
         }
 
         .skillbox {
@@ -95,13 +111,16 @@
             flex-wrap: wrap;
             justify-content: center;
 
-            @media screen and (max-width: 420px) {
-                height: auto;
-                flex-direction: column;
+            @media screen and (max-width: 560px) {
+                width: 100%;
             }
 
             div {
                 width: 40%;
+
+                @media screen and (max-width: 560px) {
+                    width: auto;
+                }
 
                 .skillbox-skillIcon {
                     font-size: 120px;
@@ -118,12 +137,12 @@
                     }
 
                     @media screen and (max-width: 560px) {
-                        font-size: 45px;
+                        font-size: 35px;
+                        margin-right: 15px;
                     }
 
                     @media screen and (max-width: 498px) {
-                        font-size: 38px;
-                        margin-bottom: 50px;
+                        font-size: 20px;
                     }
 
                 }              

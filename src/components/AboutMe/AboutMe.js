@@ -39,11 +39,11 @@ class AboutMe extends React.Component {
               <span className='about-me__text-header'>Programming.</span> I never thought that one day I will be an aspiring programmist. I was more like 'yeah, sure, programming? And later scholarship on Hogwarth'. 
               My interest in programming started about a little over a year ago. It began with Codecademy platform and 'Programuj dziewczyno' workshop. After a month of learning on my own 
               I invested my time in Kodilla bootcamp. And I loved it. It was hard, but learning programming is a great thing. Sometimes I want to drop few 'f' words and drop it, but I'm still coming back
-              and not giving up. During this six months of bootcamp I get familiar with many technologies. Most of projects were based on Javascript and it's library - ReactJs.
-              Of course we started with basics like HTML5, CSS, Sass and BootStrap. I was introduce to terms like RWD, Flexbox, Grid System, BEM Methodology. 
-              Also throughout all bootcamp I was using Git and Github - we cover basic commands like push, pull, branches system etc. Next came JS with JQuery, AJAX and Node.js ecosystem with
-              NPM package manager. Then came newer standard of ECMAScript - ES6. Next was Express and Redux, and in the end MongoDB and simple unit tests using Mocha and Jest. I cover the basics with most of them, after all I am just beginner in IT world. 
-              Since that I am practicing a lot with React. <br />
+              and not giving up. During this six months of bootcamp I get familiar with many technologies. Most of projects were based on <span className='about-me__text-tech'>Javascript </span> and it's library - <span className='about-me__text-tech'>ReactJs</span>.
+              Of course we started with basics like <span className='about-me__text-tech'>HTML5, CSS, Sass and BootStrap</span>. I was introduce to terms like <span className='about-me__text-tech'>RWD, Flexbox, Grid System, BEM Methodology</span>. 
+              Also throughout all bootcamp I was using <span className='about-me__text-tech'>Git and Github</span> - we cover basic commands like push, pull, branches system etc. Next came JS with <span className='about-me__text-tech'>JQuery, AJAX and Node.js</span> ecosystem with
+              <span className='about-me__text-tech'> NPM package manager</span>. Then came newer standard of <span className='about-me__text-tech'>ECMAScript - ES6</span>. Next was <span className='about-me__text-tech'>Express and Redux</span>, and in the end <span className='about-me__text-tech'>MongoDB</span> and simple unit tests using <span className='about-me__text-tech'>Mocha and Jest</span>.
+              I cover the basics with most of them, after all I am just beginner in IT world. Since that I am practicing a lot with React. <br />
               <br />
               <span className='about-me__text-header'>Also.</span> I'm a video and board gamer (eurogames for life!). I love to create and try new things! Like making ceramic magic in my friends' workshop. Also few months ago I adopted marvellous dog.
               His name is Elon (because he is super smart!). He and programming are my time consumers. But I try to have some time to waste on Netflix and chill.<br />
