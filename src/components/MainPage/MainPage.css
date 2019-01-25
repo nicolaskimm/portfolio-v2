@@ -33,6 +33,12 @@
   }
 }
 
+@media screen and (max-width: 712px) {
+  .mainPage .mainPage__portrait {
+    width: 200px;
+  }
+}
+
 @media screen and (max-width: 528px) {
   .mainPage .mainPage__portrait {
     display: none;
@@ -77,6 +83,9 @@
     width: 200px;
     height: 310px;
   }
+  .mainPage .mainPage__portrait img:hover {
+    border: none;
+  }
 }
 
 .mainPage .mainPage__text {
@@ -118,7 +127,7 @@
 
 @media screen and (max-width: 712px) {
   .mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: 15px;
   }
 }
@@ -153,7 +162,7 @@
 
 @media screen and (max-width: 712px) {
   .mainPage .mainPage__text p:nth-child(2) {
-    font-size: 30px;
+    font-size: 35px;
   }
 }
 
@@ -178,7 +187,7 @@
 
 @media screen and (max-width: 712px) {
   .mainPage .mainPage__text p:nth-child(4) {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 
@@ -214,7 +223,7 @@
 
 @media screen and (max-width: 712px) {
   .mainPage .mainPage__text h1 {
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: 4px;
   }
 }
