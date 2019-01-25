@@ -4,7 +4,7 @@
   height: 100vh;
 }
 
-.navigation .navigationList {
+.navigation .navigation_list {
   margin: 0;
   padding: 25px 0 20px;
   list-style-type: none;
@@ -16,7 +16,7 @@
   height: 10vh;
 }
 
-.navigation .navigationList .listItem .listItem-link {
+.navigation .navigation_list .navigation_list_item .navigation_list_item-link {
   font-size: 27px;
   color: #6e869c;
   text-decoration: none;
@@ -24,29 +24,29 @@
   transition: 0.3s;
 }
 
-.navigation .navigationList .listItem .listItem-link:hover, .navigation .navigationList .listItem .listItem-link:focus {
+.navigation .navigation_list .navigation_list_item .navigation_list_item-link:hover, .navigation .navigation_list .navigation_list_item .navigation_list_item-link:focus {
   color: #db524bce;
   font-weight: bold;
 }
 
-.navigation .navigationList .listItem .listItem-link:focus {
+.navigation .navigation_list .navigation_list_item .navigation_list_item-link:focus {
   letter-spacing: 3px;
 }
 
 @media screen and (max-width: 1024px) {
-  .navigation .navigationList .listItem .listItem-link {
+  .navigation .navigation_list .navigation_list_item .navigation_list_item-link {
     font-size: 20px;
   }
 }
 
 @media screen and (max-width: 867px) {
-  .navigation .navigationList .listItem .listItem-link {
+  .navigation .navigation_list .navigation_list_item .navigation_list_item-link {
     font-size: 15px;
   }
 }
 
 @media screen and (max-width: 498px) {
-  .navigation .navigationList .listItem .listItem-link {
+  .navigation .navigation_list .navigation_list_item .navigation_list_item-link {
     font-size: 12px;
   }
 }

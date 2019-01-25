@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 498px) {
+@media screen and (max-width: 528px) {
   .mainPage .mainPage__portrait {
     display: none;
   }
@@ -72,7 +72,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 712px) {
   .mainPage .mainPage__portrait img {
     width: 200px;
     height: 310px;
@@ -84,7 +84,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 498px) {
+@media screen and (max-width: 528px) {
   .mainPage .mainPage__text {
     width: 100%;
   }
@@ -116,14 +116,14 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 712px) {
   .mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
     font-size: 30px;
     letter-spacing: 15px;
   }
 }
 
-@media screen and (max-width: 498px) {
+@media screen and (max-width: 528px) {
   .mainPage .mainPage__text p:first-child, .mainPage .mainPage__text p:nth-child(2) {
     font-size: 45px;
   }
@@ -147,19 +147,19 @@
 
 @media screen and (max-width: 867px) {
   .mainPage .mainPage__text p:nth-child(2) {
-    font-size: 50px;
+    font-size: 48px;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 712px) {
   .mainPage .mainPage__text p:nth-child(2) {
     font-size: 30px;
   }
 }
 
-@media screen and (max-width: 498px) {
+@media screen and (max-width: 528px) {
   .mainPage .mainPage__text p:nth-child(2) {
-    font-size: 45px;
+    font-size: 42px;
   }
 }
 
@@ -176,13 +176,13 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 712px) {
   .mainPage .mainPage__text p:nth-child(4) {
     font-size: 13px;
   }
 }
 
-@media screen and (max-width: 498px) {
+@media screen and (max-width: 528px) {
   .mainPage .mainPage__text p:nth-child(4) {
     font-size: 17px;
   }
@@ -212,14 +212,14 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 712px) {
   .mainPage .mainPage__text h1 {
     font-size: 15px;
     letter-spacing: 4px;
   }
 }
 
-@media screen and (max-width: 498px) {
+@media screen and (max-width: 528px) {
   .mainPage .mainPage__text h1 {
     font-size: 20px;
     margin-bottom: 30px;

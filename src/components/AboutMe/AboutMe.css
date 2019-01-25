@@ -1,4 +1,4 @@
-.about-me {
+.aboutMe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 560px) {
-  .about-me {
+  .aboutMe {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -21,27 +21,27 @@
   }
 }
 
-.about-me .about-me__left {
+.aboutMe .aboutMe_left {
   width: 60%;
   height: auto;
   margin-right: 10px;
 }
 
 @media screen and (max-width: 560px) {
-  .about-me .about-me__left {
+  .aboutMe .aboutMe_left {
     width: 100%;
     margin-right: 0;
   }
 }
 
 @media screen and (max-width: 498px) {
-  .about-me .about-me__left {
+  .aboutMe .aboutMe_left {
     width: 100%;
     margin-right: 0;
   }
 }
 
-.about-me .about-me__left .about-me__text {
+.aboutMe .aboutMe_left .aboutMe_left_text {
   padding: 25px;
   color: #a09090f8;
   margin: 0;
@@ -51,19 +51,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .about-me .about-me__left .about-me__text {
+  .aboutMe .aboutMe_left .aboutMe_left_text {
     font-size: 15px;
   }
 }
 
 @media screen and (max-width: 867px) {
-  .about-me .about-me__left .about-me__text {
+  .aboutMe .aboutMe_left .aboutMe_left_text {
     font-size: 12px;
   }
 }
 
 @media screen and (max-width: 498px) {
-  .about-me .about-me__left .about-me__text {
+  .aboutMe .aboutMe_left .aboutMe_left_text {
     text-align: left;
     font-size: 11px;
     line-height: 1.5;
@@ -71,56 +71,56 @@
   }
 }
 
-.about-me .about-me__left .about-me__text_transition-appear {
+.aboutMe .aboutMe_left .aboutMe_left_text_transition-appear {
   opacity: 0;
 }
 
-.about-me .about-me__left .about-me__text_transition-appear.about-me__text_transition-appear-active {
+.aboutMe .aboutMe_left .aboutMe_left_text_transition-appear.aboutMe__text_transition-appear-active {
   opacity: 1;
   -webkit-transition: 2.5s ease-in-out;
   transition: 2.5s ease-in-out;
 }
 
-.about-me .about-me__left .about-me__text-header {
+.aboutMe .aboutMe_left .aboutMe_left_text-header {
   font-size: 50px;
   color: white;
 }
 
 @media screen and (max-width: 1024px) {
-  .about-me .about-me__left .about-me__text-header {
+  .aboutMe .aboutMe_left .aboutMe_left_text-header {
     font-size: 40px;
   }
 }
 
 @media screen and (max-width: 867px) {
-  .about-me .about-me__left .about-me__text-header {
+  .aboutMe .aboutMe_left .aboutMe_left_text-header {
     font-size: 30px;
   }
 }
 
 @media screen and (max-width: 560px) {
-  .about-me .about-me__left .about-me__text-header {
+  .aboutMe .aboutMe_left .aboutMe_left_text-header {
     font-size: 22px;
   }
 }
 
 @media screen and (max-width: 498px) {
-  .about-me .about-me__left .about-me__text-header {
+  .aboutMe .aboutMe_left .aboutMe_left_text-header {
     font-size: 20px;
   }
 }
 
 @media screen and (max-width: 419px) {
-  .about-me .about-me__left .about-me__text-header {
+  .aboutMe .aboutMe_left .aboutMe_left_text-header {
     font-size: 15px;
   }
 }
 
-.about-me .about-me__left .about-me__text-tech {
+.aboutMe .aboutMe_left .aboutMe_left_text-tech {
   color: #ff5d55a9;
 }
 
-.about-me .about-me__right {
+.aboutMe .aboutMe_right {
   width: 40%;
   height: 100%;
   display: -webkit-box;
@@ -130,11 +130,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 25px;
+  margin-top: 25px;
 }
 
 @media screen and (max-width: 560px) {
-  .about-me .about-me__right {
+  .aboutMe .aboutMe_right {
     width: 100%;
     height: auto;
     padding: 0;
@@ -142,7 +142,7 @@
   }
 }
 
-.about-me .about-me__right .skillbox {
+.aboutMe .aboutMe_right .aboutMe_right_skillbox {
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -159,59 +159,59 @@
 }
 
 @media screen and (max-width: 560px) {
-  .about-me .about-me__right .skillbox {
+  .aboutMe .aboutMe_right .aboutMe_right_skillbox {
     width: 100%;
   }
 }
 
-.about-me .about-me__right .skillbox div {
+.aboutMe .aboutMe_right .aboutMe_right_skillbox div {
   width: 40%;
 }
 
 @media screen and (max-width: 560px) {
-  .about-me .about-me__right .skillbox div {
+  .aboutMe .aboutMe_right .aboutMe_right_skillbox div {
     width: auto;
   }
 }
 
-.about-me .about-me__right .skillbox div .skillbox-skillIcon {
+.aboutMe .aboutMe_right .aboutMe_right_skillbox div .aboutMe_right_skillbox-skillIcon {
   font-size: 120px;
   color: #ff5d55a9;
   margin: 0 5px 30px 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .about-me .about-me__right .skillbox div .skillbox-skillIcon {
+  .aboutMe .aboutMe_right .aboutMe_right_skillbox div .aboutMe_right_skillbox-skillIcon {
     font-size: 90px;
   }
 }
 
 @media screen and (max-width: 867px) {
-  .about-me .about-me__right .skillbox div .skillbox-skillIcon {
+  .aboutMe .aboutMe_right .aboutMe_right_skillbox div .aboutMe_right_skillbox-skillIcon {
     font-size: 60px;
   }
 }
 
 @media screen and (max-width: 560px) {
-  .about-me .about-me__right .skillbox div .skillbox-skillIcon {
+  .aboutMe .aboutMe_right .aboutMe_right_skillbox div .aboutMe_right_skillbox-skillIcon {
     font-size: 35px;
     margin-right: 15px;
   }
 }
 
 @media screen and (max-width: 498px) {
-  .about-me .about-me__right .skillbox div .skillbox-skillIcon {
+  .aboutMe .aboutMe_right .aboutMe_right_skillbox div .aboutMe_right_skillbox-skillIcon {
     font-size: 20px;
   }
 }
 
-.about-me .about-me__right .skillstransition-appear {
+.aboutMe .aboutMe_right .aboutMe_right_skillbox-transition {
   opacity: 0.1;
   -webkit-transform: translateX(80px);
           transform: translateX(80px);
 }
 
-.about-me .about-me__right .skillstransition-appear.skillstransition-appear-active {
+.aboutMe .aboutMe_right .aboutMe_right_skillbox-transition-appear.aboutMe_right_skillbox-transition-appear-active {
   opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);
@@ -219,13 +219,13 @@
   transition: all 1.3s ease;
 }
 
-.about-me .about-me__right .skillstexttransition-appear {
+.aboutMe .aboutMe_right .aboutMe_right_skillbox-transition-appear {
   opacity: 0.1;
   -webkit-transform: translateX(-60px);
           transform: translateX(-60px);
 }
 
-.about-me .about-me__right .skillstexttransition-appear.skillstexttransition-appear-active {
+.aboutMe .aboutMe_right .aboutMe_right_skillbox-transition-appear.aboutMe_right_skillbox-transition-appear-active {
   opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);

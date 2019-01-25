@@ -15,38 +15,38 @@ import { CSSTransitionGroup } from 'react-transition-group';
 const Contact = () => {
   return (
     <div className='contact'>
-      <h1 className='contact__header'> You can find me here </h1>
-      <div className='contact__links'>
+      <h1 className='contact_header'> You can find me here </h1>
+      <div className='contact_links'>
         <CSSTransitionGroup
-        transitionName='contact__official_transition'
+        transitionName='contact_links-official_transition'
         transitionAppear={ true }
         transitionAppearTimeout= {2500}>
-          <div className='contact__official'>
+          <div className='contact_links-official'>
             <h2> contact </h2>
-            <a href='mailto:j.krezolek@gmail.com'><FontAwesomeIcon icon={faAt} className='contact__icon' /> j.krezolek@gmail.com </a>
-            <p><FontAwesomeIcon icon={faPhone} className='contact__icon' /> +48 795 611 325 </p>
-            <a href='https://www.linkedin.com/in/joanna-kr%C4%99%C5%BCo%C5%82ek/'><FontAwesomeIcon icon={faLinkedin} className='contact__icon' /> linkedin </a>
-            <a href='https://github.com/nicolaskimm'><FontAwesomeIcon icon={faGithub} className='contact__icon' /> github </a>
+            <a href='mailto:j.krezolek@gmail.com'><FontAwesomeIcon icon={faAt} className='contact_links-icon' /> j.krezolek@gmail.com </a>
+            <p><FontAwesomeIcon icon={faPhone} className='contact_links-icon' /> +48 795 611 325 </p>
+            <a href='https://www.linkedin.com/in/joanna-kr%C4%99%C5%BCo%C5%82ek/'><FontAwesomeIcon icon={faLinkedin} className='contact_links-icon' /> linkedin </a>
+            <a href='https://github.com/nicolaskimm'><FontAwesomeIcon icon={faGithub} className='contact_links-icon' /> github </a>
           </div>
         </CSSTransitionGroup>
         <CSSTransitionGroup
-        transitionName='contact__social_transition'
+        transitionName='contact_links-social_transition'
         transitionAppear={ true }
         transitionAppearTimeout= {2500}>
-          <div className='contact__social'>
+          <div className='contact_links-social'>
             <h2> social media </h2>
-            <a href='https://www.facebook.com/j.krezolek'><FontAwesomeIcon icon={faFacebook} className='contact__icon' /> facebook </a>
-            <a href='https://www.instagram.com/ednickk/'><FontAwesomeIcon icon={faInstagram} className='contact__icon' /> instagram </a>
+            <a href='https://www.facebook.com/j.krezolek'><FontAwesomeIcon icon={faFacebook} className='contact_links-icon' /> facebook </a>
+            <a href='https://www.instagram.com/ednickk/'><FontAwesomeIcon icon={faInstagram} className='contact_links-icon' /> instagram </a>
           </div>
         </CSSTransitionGroup>
         <CSSTransitionGroup
-        transitionName='contact__other_transition'
+        transitionName='contact_links-other_transition'
         transitionAppear={ true }
         transitionAppearTimeout= {2500}>
-          <div className='contact__other'>
+          <div className='contact_links-other'>
             <h2> other cool stuff </h2>
-            <a href='https://steamcommunity.com/id/nicolaskimm/'><FontAwesomeIcon icon={faSteam} className='contact__icon' /> steam </a>
-            <a href='https://boardgamegeek.com/plays/bydate/user/nicolaskim/subtype/boardgame'><FontAwesomeIcon icon={faDice} className='contact__icon' /> boardgamegeek </a>
+            <a href='https://steamcommunity.com/id/nicolaskimm/'><FontAwesomeIcon icon={faSteam} className='contact_links-icon' /> steam </a>
+            <a href='https://boardgamegeek.com/plays/bydate/user/nicolaskim/subtype/boardgame'><FontAwesomeIcon icon={faDice} className='contact_links-icon' /> boardgamegeek </a>
           </div>
         </CSSTransitionGroup>
       </div>

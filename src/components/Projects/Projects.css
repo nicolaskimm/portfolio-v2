@@ -19,7 +19,7 @@
   margin: 0 auto;
 }
 
-.projects .project {
+.projects .project_container {
   width: 100%;
   height: 40%;
   -webkit-box-sizing: border-box;
@@ -36,50 +36,47 @@
 }
 
 @media screen and (max-width: 867px) {
-  .projects .project {
+  .projects .project_container {
     height: auto;
   }
 }
 
-.projects .project .projectPhoto {
-  width: 70%;
+.projects .project_container .project_photo {
+  width: 55%;
   background-size: cover;
-  background-position: center;
 }
 
 @media screen and (max-width: 867px) {
-  .projects .project .projectPhoto {
+  .projects .project_container .project_photo {
     display: none;
   }
 }
 
-.projects .project .projectPhoto1 {
-  background-image: url("../../views/bggreact.jpg");
-  max-width: 100%;
-  max-height: 100%;
+.projects .project_container .project_photo-bggapp {
+  background-image: url("../../views/bggapp.jpg");
 }
 
-.projects .project .projectPhoto2 {
+.projects .project_container .project_photo-budgety {
   background-image: url("../../views/budgety.jpg");
 }
 
-.projects .project .projectPhoto3 {
+.projects .project_container .project_photo-sudoku {
   background-image: url("../../views/sudoku.jpg");
 }
 
-.projects .project .projectPhoto4 {
-  background-image: url("../../views/dice-game.jpg");
+.projects .project_container .project_photo-dicegame {
+  background-image: url("../../views/piggame.jpg");
 }
 
-.projects .project .projectPhoto5 {
+.projects .project_container .project_photo-chat {
   background-image: url("../../views/chat.jpg");
 }
 
-.projects .project .projectPhoto6 {
-  background-image: url("../../views/designlab.jpg");
+.projects .project_container .project_photo-psd {
+  background-image: url("../../views/psd.jpg");
 }
 
-.projects .project .projectDescribe {
+.projects .project_container .project_describe {
   width: 30%;
   margin: 0;
   padding: 30px;
@@ -87,34 +84,34 @@
 }
 
 @media screen and (max-width: 867px) {
-  .projects .project .projectDescribe {
+  .projects .project_container .project_describe {
     width: 100%;
     overflow: auto;
   }
-  .projects .project .projectDescribe h1 {
+  .projects .project_container .project_describe h1 {
     font-size: 35px;
   }
-  .projects .project .projectDescribe h3 {
+  .projects .project_container .project_describe h3 {
     font-size: 18px;
     margin-bottom: 80px;
   }
 }
 
 @media screen and (max-width: 498px) {
-  .projects .project .projectDescribe {
+  .projects .project_container .project_describe {
     width: 100%;
     overflow: auto;
   }
-  .projects .project .projectDescribe h1 {
+  .projects .project_container .project_describe h1 {
     font-size: 20px;
   }
-  .projects .project .projectDescribe h3 {
+  .projects .project_container .project_describe h3 {
     font-size: 12px;
     margin-bottom: 50px;
   }
 }
 
-.projects .project .links {
+.projects .project_container .project_describe_links {
   width: 80%;
   height: 50px;
   display: -webkit-box;
@@ -127,7 +124,7 @@
   margin-top: 60px;
 }
 
-.projects .project .links > div {
+.projects .project_container .project_describe_links > div {
   width: 300px;
   height: 35px;
   background-color: #343b49b6;
@@ -145,29 +142,29 @@
   transition: 0.9s;
 }
 
-.projects .project .githublink > a, .projects .project .demolink > a {
-  text-decoration: none;
-  color: #ff5d55e7;
-}
-
-@media screen and (max-width: 867px) {
-  .projects .project .githublink > a, .projects .project .demolink > a {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 498px) {
-  .projects .project .githublink > a, .projects .project .demolink > a {
-    font-size: 12px;
-  }
-}
-
-.projects .project .links > div:hover {
+.projects .project_container .project_describe_links > div:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   background-color: #363c4dde;
   color: #fd6961e7;
   -webkit-box-shadow: -10px 10px 10px #242933;
           box-shadow: -10px 10px 10px #242933;
+}
+
+.projects .project_container .project_describe_links-githublink > a, .projects .project_container .project_describe_links-demolink > a {
+  text-decoration: none;
+  color: #ff5d55e7;
+}
+
+@media screen and (max-width: 867px) {
+  .projects .project_container .project_describe_links-githublink > a, .projects .project_container .project_describe_links-demolink > a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .projects .project_container .project_describe_links-githublink > a, .projects .project_container .project_describe_links-demolink > a {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=Projects.css.map */

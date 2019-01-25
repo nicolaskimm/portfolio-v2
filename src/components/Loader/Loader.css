@@ -12,7 +12,7 @@
   position: relative;
 }
 
-.loader div[class^="circle_"] {
+.loader div[class^="loader_circle"] {
   position: absolute;
   top: 50px;
   left: 50px;
@@ -24,33 +24,33 @@
 }
 
 @media screen and (max-width: 600px) {
-  .loader div[class^="circle_"] {
+  .loader div[class^="loader_circle"] {
     top: 25px;
     left: 25px;
   }
 }
 
-.loader .circle_1 {
+.loader .loader_circle-1 {
   background-color: #ffa09dcc;
   width: 150px;
   height: 150px;
 }
 
 @media screen and (max-width: 867px) {
-  .loader .circle_1 {
+  .loader .loader_circle-1 {
     width: 50px;
     height: 50px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .loader .circle_1 {
+  .loader .loader_circle-1 {
     width: 20px;
     height: 20px;
   }
 }
 
-.loader .circle_2 {
+.loader .loader_circle-2 {
   background-color: #ff8b85c5;
   width: 250px;
   height: 250px;
@@ -59,20 +59,20 @@
 }
 
 @media screen and (max-width: 867px) {
-  .loader .circle_2 {
+  .loader .loader_circle-2 {
     width: 150px;
     height: 150px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .loader .circle_2 {
+  .loader .loader_circle-2 {
     width: 70px;
     height: 70px;
   }
 }
 
-.loader .circle_3 {
+.loader .loader_circle-3 {
   background-color: #fe5e56b4;
   width: 350px;
   height: 350px;
@@ -81,20 +81,20 @@
 }
 
 @media screen and (max-width: 867px) {
-  .loader .circle_3 {
+  .loader .loader_circle-3 {
     width: 250px;
     height: 250px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .loader .circle_3 {
+  .loader .loader_circle-3 {
     width: 120px;
     height: 120px;
   }
 }
 
-.loader .circle_4 {
+.loader .loader_circle-4 {
   background-color: #fe5e568c;
   width: 450px;
   height: 450px;
@@ -103,20 +103,20 @@
 }
 
 @media screen and (max-width: 867px) {
-  .loader .circle_4 {
+  .loader .loader_circle-4 {
     width: 350px;
     height: 350px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .loader .circle_4 {
+  .loader .loader_circle-4 {
     width: 170px;
     height: 170px;
   }
 }
 
-.loader .circle_5 {
+.loader .loader_circle-5 {
   background-color: #fe5e5667;
   width: 550px;
   height: 550px;
@@ -125,20 +125,20 @@
 }
 
 @media screen and (max-width: 867px) {
-  .loader .circle_5 {
+  .loader .loader_circle-5 {
     width: 450px;
     height: 450px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .loader .circle_5 {
+  .loader .loader_circle-5 {
     width: 220px;
     height: 220px;
   }
 }
 
-.loader .outside_circle {
+.loader .loader_outsideCircle {
   width: 650px;
   height: 650px;
   background-color: #fe5f563f;
@@ -147,14 +147,14 @@
 }
 
 @media screen and (max-width: 867px) {
-  .loader .outside_circle {
+  .loader .loader_outsideCircle {
     width: 550px;
     height: 550px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .loader .outside_circle {
+  .loader .loader_outsideCircle {
     width: 270px;
     height: 270px;
   }

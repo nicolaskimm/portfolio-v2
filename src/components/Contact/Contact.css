@@ -15,7 +15,7 @@
   color: white;
 }
 
-.contact .contact__header {
+.contact .contact_header {
   margin-bottom: 50px;
   font-size: 50px;
   letter-spacing: 2.5px;
@@ -23,25 +23,25 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .contact .contact__header {
+  .contact .contact_header {
     font-size: 45px;
   }
 }
 
 @media screen and (max-width: 867px) {
-  .contact .contact__header {
+  .contact .contact_header {
     font-size: 35px;
   }
 }
 
-@media screen and (max-width: 498px) {
-  .contact .contact__header {
+@media screen and (max-width: 528px) {
+  .contact .contact_header {
     font-size: 20px;
     margin-bottom: 20px;
   }
 }
 
-.contact .contact__links {
+.contact .contact_links {
   width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,8 +54,8 @@
       justify-content: space-around;
 }
 
-@media screen and (max-width: 498px) {
-  .contact .contact__links {
+@media screen and (max-width: 528px) {
+  .contact .contact_links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -63,10 +63,19 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
-.contact .contact__links .contact__official, .contact .contact__links .contact__social, .contact .contact__links .contact__other, .contact .contact__links .contact__social, .contact .contact__links .contact__other {
+@media screen and (max-width: 528px) {
+  .contact .contact_links span {
+    width: 50%;
+  }
+}
+
+.contact .contact_links .contact_links-official, .contact .contact_links .contact_links-social, .contact .contact_links .contact_links-other, .contact .contact_links .contact_links-social, .contact .contact_links .contact_links-other {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,24 +87,25 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .contact .contact__links .contact__official, .contact .contact__links .contact__social, .contact .contact__links .contact__other, .contact .contact__links .contact__social, .contact .contact__links .contact__other {
+  .contact .contact_links .contact_links-official, .contact .contact_links .contact_links-social, .contact .contact_links .contact_links-other, .contact .contact_links .contact_links-social, .contact .contact_links .contact_links-other {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 867px) {
-  .contact .contact__links .contact__official, .contact .contact__links .contact__social, .contact .contact__links .contact__other, .contact .contact__links .contact__social, .contact .contact__links .contact__other {
+  .contact .contact_links .contact_links-official, .contact .contact_links .contact_links-social, .contact .contact_links .contact_links-other, .contact .contact_links .contact_links-social, .contact .contact_links .contact_links-other {
     font-size: 12px;
   }
 }
 
-@media screen and (max-width: 498px) {
-  .contact .contact__links .contact__official, .contact .contact__links .contact__social, .contact .contact__links .contact__other, .contact .contact__links .contact__social, .contact .contact__links .contact__other {
+@media screen and (max-width: 528px) {
+  .contact .contact_links .contact_links-official, .contact .contact_links .contact_links-social, .contact .contact_links .contact_links-other, .contact .contact_links .contact_links-social, .contact .contact_links .contact_links-other {
     margin-bottom: 60px;
+    text-align: left;
   }
 }
 
-.contact .contact__links .contact__official > a, .contact .contact__links .contact__social > a, .contact .contact__links .contact__other > a, .contact .contact__links .contact__official > p, .contact .contact__links .contact__official .contact__social > p, .contact .contact__links .contact__official .contact__other > p, .contact .contact__links .contact__social .contact__official > p, .contact .contact__links .contact__social > p, .contact .contact__links .contact__social .contact__other > p, .contact .contact__links .contact__other .contact__official > p, .contact .contact__links .contact__other .contact__social > p, .contact .contact__links .contact__other > p, .contact .contact__links .contact__social > a, .contact .contact__links .contact__official .contact__social > p, .contact .contact__links .contact__social > p, .contact .contact__links .contact__other .contact__social > p, .contact .contact__links .contact__other > a, .contact .contact__links .contact__official .contact__other > p, .contact .contact__links .contact__social .contact__other > p, .contact .contact__links .contact__other > p {
+.contact .contact_links .contact_links-official > a, .contact .contact_links .contact_links-social > a, .contact .contact_links .contact_links-other > a, .contact .contact_links .contact_links-official > p, .contact .contact_links .contact_links-official .contact_links-social > p, .contact .contact_links .contact_links-official .contact_links-other > p, .contact .contact_links .contact_links-social .contact_links-official > p, .contact .contact_links .contact_links-social > p, .contact .contact_links .contact_links-social .contact_links-other > p, .contact .contact_links .contact_links-other .contact_links-official > p, .contact .contact_links .contact_links-other .contact_links-social > p, .contact .contact_links .contact_links-other > p, .contact .contact_links .contact_links-social > a, .contact .contact_links .contact_links-official .contact_links-social > p, .contact .contact_links .contact_links-social > p, .contact .contact_links .contact_links-other .contact_links-social > p, .contact .contact_links .contact_links-other > a, .contact .contact_links .contact_links-official .contact_links-other > p, .contact .contact_links .contact_links-social .contact_links-other > p, .contact .contact_links .contact_links-other > p {
   margin-top: 13px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,15 +119,15 @@
   transition: .8s;
 }
 
-.contact .contact__links .contact__official > a:hover, .contact .contact__links .contact__social > a:hover, .contact .contact__links .contact__other > a:hover, .contact .contact__links .contact__official > p:hover, .contact .contact__links .contact__official .contact__social > p:hover, .contact .contact__links .contact__official .contact__other > p:hover, .contact .contact__links .contact__social .contact__official > p:hover, .contact .contact__links .contact__social > p:hover, .contact .contact__links .contact__social .contact__other > p:hover, .contact .contact__links .contact__other .contact__official > p:hover, .contact .contact__links .contact__other .contact__social > p:hover, .contact .contact__links .contact__other > p:hover, .contact .contact__links .contact__social > a:hover, .contact .contact__links .contact__official .contact__social > p:hover, .contact .contact__links .contact__social > p:hover, .contact .contact__links .contact__other .contact__social > p:hover, .contact .contact__links .contact__other > a:hover, .contact .contact__links .contact__official .contact__other > p:hover, .contact .contact__links .contact__social .contact__other > p:hover, .contact .contact__links .contact__other > p:hover {
+.contact .contact_links .contact_links-official > a:hover, .contact .contact_links .contact_links-social > a:hover, .contact .contact_links .contact_links-other > a:hover, .contact .contact_links .contact_links-official > p:hover, .contact .contact_links .contact_links-official .contact_links-social > p:hover, .contact .contact_links .contact_links-official .contact_links-other > p:hover, .contact .contact_links .contact_links-social .contact_links-official > p:hover, .contact .contact_links .contact_links-social > p:hover, .contact .contact_links .contact_links-social .contact_links-other > p:hover, .contact .contact_links .contact_links-other .contact_links-official > p:hover, .contact .contact_links .contact_links-other .contact_links-social > p:hover, .contact .contact_links .contact_links-other > p:hover, .contact .contact_links .contact_links-social > a:hover, .contact .contact_links .contact_links-official .contact_links-social > p:hover, .contact .contact_links .contact_links-social > p:hover, .contact .contact_links .contact_links-other .contact_links-social > p:hover, .contact .contact_links .contact_links-other > a:hover, .contact .contact_links .contact_links-official .contact_links-other > p:hover, .contact .contact_links .contact_links-social .contact_links-other > p:hover, .contact .contact_links .contact_links-other > p:hover {
   color: #e48480;
 }
 
-.contact .contact__links .contact__official p, .contact .contact__links .contact__social p, .contact .contact__links .contact__other p, .contact .contact__links .contact__social p, .contact .contact__links .contact__other p {
+.contact .contact_links .contact_links-official p, .contact .contact_links .contact_links-social p, .contact .contact_links .contact_links-other p, .contact .contact_links .contact_links-social p, .contact .contact_links .contact_links-other p {
   margin: 13px 0 0;
 }
 
-.contact .contact__links .contact__official h2, .contact .contact__links .contact__social h2, .contact .contact__links .contact__other h2, .contact .contact__links .contact__social h2, .contact .contact__links .contact__other h2 {
+.contact .contact_links .contact_links-official h2, .contact .contact_links .contact_links-social h2, .contact .contact_links .contact_links-other h2, .contact .contact_links .contact_links-social h2, .contact .contact_links .contact_links-other h2 {
   text-align: center;
   letter-spacing: 2px;
   color: #e48480;
@@ -125,54 +135,54 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .contact .contact__links .contact__official h2, .contact .contact__links .contact__social h2, .contact .contact__links .contact__other h2, .contact .contact__links .contact__social h2, .contact .contact__links .contact__other h2 {
+  .contact .contact_links .contact_links-official h2, .contact .contact_links .contact_links-social h2, .contact .contact_links .contact_links-other h2, .contact .contact_links .contact_links-social h2, .contact .contact_links .contact_links-other h2 {
     font-size: 15px;
   }
 }
 
 @media screen and (max-width: 867px) {
-  .contact .contact__links .contact__official h2, .contact .contact__links .contact__social h2, .contact .contact__links .contact__other h2, .contact .contact__links .contact__social h2, .contact .contact__links .contact__other h2 {
+  .contact .contact_links .contact_links-official h2, .contact .contact_links .contact_links-social h2, .contact .contact_links .contact_links-other h2, .contact .contact_links .contact_links-social h2, .contact .contact_links .contact_links-other h2 {
     font-size: 15px;
   }
 }
 
-@media screen and (max-width: 498px) {
-  .contact .contact__links .contact__official h2, .contact .contact__links .contact__social h2, .contact .contact__links .contact__other h2, .contact .contact__links .contact__social h2, .contact .contact__links .contact__other h2 {
+@media screen and (max-width: 528px) {
+  .contact .contact_links .contact_links-official h2, .contact .contact_links .contact_links-social h2, .contact .contact_links .contact_links-other h2, .contact .contact_links .contact_links-social h2, .contact .contact_links .contact_links-other h2 {
     font-size: 12px;
   }
 }
 
-.contact .contact__links .contact__official .contact__icon, .contact .contact__links .contact__social .contact__icon, .contact .contact__links .contact__other .contact__icon, .contact .contact__links .contact__social .contact__icon, .contact .contact__links .contact__other .contact__icon {
+.contact .contact_links .contact_links-official .contact_links-icon, .contact .contact_links .contact_links-social .contact_links-icon, .contact .contact_links .contact_links-other .contact_links-icon, .contact .contact_links .contact_links-social .contact_links-icon, .contact .contact_links .contact_links-other .contact_links-icon {
   margin-right: 20px;
   font-size: 40px;
   color: #81a0bd;
 }
 
 @media screen and (max-width: 1024px) {
-  .contact .contact__links .contact__official .contact__icon, .contact .contact__links .contact__social .contact__icon, .contact .contact__links .contact__other .contact__icon, .contact .contact__links .contact__social .contact__icon, .contact .contact__links .contact__other .contact__icon {
+  .contact .contact_links .contact_links-official .contact_links-icon, .contact .contact_links .contact_links-social .contact_links-icon, .contact .contact_links .contact_links-other .contact_links-icon, .contact .contact_links .contact_links-social .contact_links-icon, .contact .contact_links .contact_links-other .contact_links-icon {
     font-size: 30px;
   }
 }
 
 @media screen and (max-width: 867px) {
-  .contact .contact__links .contact__official .contact__icon, .contact .contact__links .contact__social .contact__icon, .contact .contact__links .contact__other .contact__icon, .contact .contact__links .contact__social .contact__icon, .contact .contact__links .contact__other .contact__icon {
+  .contact .contact_links .contact_links-official .contact_links-icon, .contact .contact_links .contact_links-social .contact_links-icon, .contact .contact_links .contact_links-other .contact_links-icon, .contact .contact_links .contact_links-social .contact_links-icon, .contact .contact_links .contact_links-other .contact_links-icon {
     font-size: 20px;
   }
 }
 
-@media screen and (max-width: 498px) {
-  .contact .contact__links .contact__official .contact__icon, .contact .contact__links .contact__social .contact__icon, .contact .contact__links .contact__other .contact__icon, .contact .contact__links .contact__social .contact__icon, .contact .contact__links .contact__other .contact__icon {
+@media screen and (max-width: 528px) {
+  .contact .contact_links .contact_links-official .contact_links-icon, .contact .contact_links .contact_links-social .contact_links-icon, .contact .contact_links .contact_links-other .contact_links-icon, .contact .contact_links .contact_links-social .contact_links-icon, .contact .contact_links .contact_links-other .contact_links-icon {
     font-size: 15px;
   }
 }
 
-.contact .contact__links .contact__official_transition-appear {
+.contact .contact_links .contact_links-official_transition-appear {
   opacity: 0;
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
 }
 
-.contact .contact__links .contact__official_transition-appear-active {
+.contact .contact_links .contact_links-official_transition-appear-active {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
@@ -180,13 +190,13 @@
   transition: all 0.6s ease-in-out;
 }
 
-.contact .contact__links .contact__social_transition-appear {
+.contact .contact_links .contact_links-social_transition-appear {
   opacity: 0;
   -webkit-transform: translateY(-100px);
           transform: translateY(-100px);
 }
 
-.contact .contact__links .contact__social_transition-appear.contact__social_transition-appear-active {
+.contact .contact_links .contact_links-social_transition-appear.contact_links-social_transition-appear-active {
   opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);
@@ -194,13 +204,13 @@
   transition: all 0.6s ease-in-out;
 }
 
-.contact .contact__links .contact__other_transition-appear {
+.contact .contact_links .contact_links-other_transition-appear {
   opacity: 0;
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
 }
 
-.contact .contact__links .contact__other_transition-appear.contact__other_transition-appear-active {
+.contact .contact_links .contact_links-other_transition-appear.contact_links-other_transition-appear-active {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);

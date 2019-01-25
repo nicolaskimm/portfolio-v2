@@ -8,7 +8,7 @@
     height: 100%;
     margin: 0 auto;
 
-    .project {
+    .project_container {
         width: 100%;
         height: 40%;
         box-sizing: border-box;
@@ -21,43 +21,41 @@
            height: auto;
         }
 
-        .projectPhoto {
-            width: 70%;
-            background-size: cover; 
-            background-position: center;
+        .project_photo {
+            width: 55%;
+            background-size: cover;
+
 
             @media screen and (max-width: 867px) {
                 display: none;
             }
         }
 
-        .projectPhoto1 {
-            background-image: url('../../views/bggreact.jpg');
-            max-width: 100%;
-            max-height: 100%;
+        .project_photo-bggapp {
+            background-image: url('../../views/bggapp.jpg');
         }
         
-        .projectPhoto2 {
+        .project_photo-budgety {
             background-image: url('../../views/budgety.jpg');
         }
         
-        .projectPhoto3 {
+        .project_photo-sudoku {
             background-image: url('../../views/sudoku.jpg');
         }
         
-        .projectPhoto4 {
-            background-image: url('../../views/dice-game.jpg');
+        .project_photo-dicegame {
+            background-image: url('../../views/piggame.jpg');
         }
         
-        .projectPhoto5 {
+        .project_photo-chat {
             background-image: url('../../views/chat.jpg');
         }
         
-        .projectPhoto6 {
-            background-image: url('../../views/designlab.jpg');
+        .project_photo-psd {
+            background-image: url('../../views/psd.jpg');
         }
         
-        .projectDescribe {
+        .project_describe {
             width: 30%;
             margin: 0;
             padding: 30px;
@@ -91,7 +89,7 @@
             }
         }
         
-        .links {
+        .project_describe_links {
             width: 80%;
             height: 50px;
             display: flex;
@@ -99,7 +97,7 @@
             margin-top: 60px;
         }
         
-        .links>div {
+        .project_describe_links>div {
             width: 300px;
             height: 35px;
             background-color: #343b49b6;
@@ -108,29 +106,25 @@
             justify-content: center;
             align-items: center;
             transition: 0.9s;
+            &:hover {
+                transform: scale(1.2);
+                background-color: #363c4dde;
+                color: #fd6961e7;
+                box-shadow: -10px 10px 10px #242933;
+            }
         }
         
-        .githublink>a, .demolink>a {
+        .project_describe_links-githublink>a, .project_describe_links-demolink>a {
             text-decoration: none;
             color: #ff5d55e7;
 
-
             @media screen and (max-width: 867px) {
-                font-size: 16px;
+                font-size: 15px;
             }
-
-                    
+                
             @media screen and (max-width: 498px) {
                 font-size: 12px;
             }
-
-        }
-        
-        .links>div:hover {
-            transform: scale(1.2);
-            background-color: #363c4dde;
-            color: #fd6961e7;
-            box-shadow: -10px 10px 10px #242933;
         }
     }
 }
