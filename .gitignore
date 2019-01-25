@@ -2,3 +2,4 @@ node_modules
 debug.log
 *.css.map
 .sass-cache/
+package-lock.json
