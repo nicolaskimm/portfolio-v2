@@ -53,23 +53,23 @@
 }
 
 .projects .project_container .project_photo-bggapp {
-  background-image: url("../../views/bggapp.jpg");
+  background-image: url("../../views/bggappr.jpg");
 }
 
 .projects .project_container .project_photo-budgety {
-  background-image: url("../../views/budgety.jpg");
+  background-image: url("../../views/budgetyapp.jpg");
 }
 
 .projects .project_container .project_photo-sudoku {
-  background-image: url("../../views/sudoku.jpg");
+  background-image: url("../../views/sudokur.jpg");
 }
 
 .projects .project_container .project_photo-dicegame {
-  background-image: url("../../views/piggame.jpg");
+  background-image: url("../../views/dicegame.jpg");
 }
 
 .projects .project_container .project_photo-chat {
-  background-image: url("../../views/chat.jpg");
+  background-image: url("../../views/chatapp.jpg");
 }
 
 .projects .project_container .project_photo-psd {
