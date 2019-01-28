@@ -1,3 +1,15 @@
+$bodybackground: #232833;
+$reddishbright: hsla(3, 100%, 67%, 0.808);
+
+$media3: 867px;
+$media6: 498px;
+
+$bluebackground: rgba(41, 47, 60, 0.741);
+$pinkdescribe: hsla(0, 8%, 60%, 0.973);
+$buttonblue: hsla(220, 17%, 25%, 0.714);
+$buttonhover: hsla(224, 18%, 26%, 0.871);
+
+
 .projects {
     display: flex;
     flex-direction: row;
@@ -13,11 +25,11 @@
         height: 40%;
         box-sizing: border-box;
         margin: 20px 0 70px;
-        background-color: #292f3bbd;
+        background-color: $bluebackground;
         display: flex;
         flex-direction: row;
 
-        @media screen and (max-width: 867px) {
+        @media screen and (max-width: $media3) {
            height: auto;
         }
 
@@ -26,7 +38,7 @@
             background-size: cover;
 
 
-            @media screen and (max-width: 867px) {
+            @media screen and (max-width: $media3) {
                 display: none;
             }
         }
@@ -59,9 +71,9 @@
             width: 30%;
             margin: 0;
             padding: 30px;
-            color: #a09090f8;
+            color: $pinkdescribe;
 
-            @media screen and (max-width: 867px) {
+            @media screen and (max-width: $media3) {
                 width: 100%;
                 overflow: auto;
 
@@ -74,7 +86,7 @@
                 }
             }
 
-            @media screen and (max-width: 498px) {
+            @media screen and (max-width: $media6) {
                 width: 100%;
                 overflow: auto;
 
@@ -100,29 +112,28 @@
         .project_describe_links>div {
             width: 300px;
             height: 35px;
-            background-color: #343b49b6;
+            background-color: $buttonblue;
             margin-right: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
-            transition: 0.9s;
+            transition: 1s;
             &:hover {
                 transform: scale(1.2);
-                background-color: #363c4dde;
-                color: #fd6961e7;
-                box-shadow: -10px 10px 10px #242933;
+                background-color: $buttonhover;
+                box-shadow: -8px 8px 8px $bodybackground;
             }
         }
         
         .project_describe_links-githublink>a, .project_describe_links-demolink>a {
             text-decoration: none;
-            color: #ff5d55e7;
+            color: $reddishbright;
 
-            @media screen and (max-width: 867px) {
+            @media screen and (max-width: $media3) {
                 font-size: 15px;
             }
                 
-            @media screen and (max-width: 498px) {
+            @media screen and (max-width: $media6) {
                 font-size: 12px;
             }
         }

@@ -8,11 +8,9 @@
   width: 90%;
   margin: 0 auto;
   height: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 528px) {
   .aboutMe {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -27,7 +25,7 @@
   margin-right: 10px;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 528px) {
   .aboutMe .aboutMe_left {
     width: 100%;
     margin-right: 0;
@@ -43,7 +41,7 @@
 
 .aboutMe .aboutMe_left .aboutMe_left_text {
   padding: 25px;
-  color: #a09090f8;
+  color: rgba(161, 145, 145, 0.973);
   margin: 0;
   font-size: 17.3px;
   letter-spacing: 0;
@@ -98,7 +96,7 @@
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 528px) {
   .aboutMe .aboutMe_left .aboutMe_left_text-header {
     font-size: 22px;
   }
@@ -117,7 +115,7 @@
 }
 
 .aboutMe .aboutMe_left .aboutMe_left_text-tech {
-  color: #ff5d55a9;
+  color: rgba(255, 95, 87, 0.808);
 }
 
 .aboutMe .aboutMe_right {
@@ -133,7 +131,7 @@
   margin-top: 25px;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 528px) {
   .aboutMe .aboutMe_right {
     width: 100%;
     height: auto;
@@ -158,7 +156,7 @@
           justify-content: center;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 528px) {
   .aboutMe .aboutMe_right .aboutMe_right_skillbox {
     width: 100%;
   }
@@ -168,7 +166,7 @@
   width: 40%;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 528px) {
   .aboutMe .aboutMe_right .aboutMe_right_skillbox div {
     width: auto;
   }
@@ -176,8 +174,7 @@
 
 .aboutMe .aboutMe_right .aboutMe_right_skillbox div .aboutMe_right_skillbox-skillIcon {
   font-size: 120px;
-  color: #ff5d55a9;
-  margin: 0 5px 30px 0;
+  color: rgba(255, 95, 87, 0.808);
 }
 
 @media screen and (max-width: 1024px) {
@@ -192,7 +189,7 @@
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 528px) {
   .aboutMe .aboutMe_right .aboutMe_right_skillbox div .aboutMe_right_skillbox-skillIcon {
     font-size: 35px;
     margin-right: 15px;

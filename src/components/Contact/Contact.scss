@@ -1,3 +1,13 @@
+$reddishbright: hsla(3, 100%, 67%, 0.808);
+$brightblue: hsl(209, 19%, 44%);
+
+$media2: 1024px;
+$media3: 867px;
+$media5: 528px;
+
+$steelblue: hsl(209, 31%, 62%);
+
+
 .contact {
     margin: 0;
     width: 100%;
@@ -5,23 +15,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
 
     .contact_header {
         margin-bottom: 50px;
         font-size: 50px;
         letter-spacing: 2.5px;
-        color: #94a9bd;
+        color: $steelblue;
 
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: $media2) {
             font-size: 45px;
         }
 
-        @media screen and (max-width: 867px) {
+        @media screen and (max-width: $media3) {
             font-size: 35px;
         }
 
-        @media screen and (max-width: 528px) {
+        @media screen and (max-width: $media5) {
             font-size: 20px;
             margin-bottom: 20px;
         }
@@ -34,14 +43,14 @@
         flex-direction: row;
         justify-content: space-around;
 
-        @media screen and (max-width: 528px) {
+        @media screen and (max-width: $media5) {
             flex-direction: column;
             align-items: center;
             justify-content: center;
         }
 
         span {
-            @media screen and (max-width: 528px) {
+            @media screen and (max-width: $media5) {
                 width: 50%;
             }
         }
@@ -52,16 +61,16 @@
             font-size: 20px;
 
             
-            @media screen and (max-width: 1024px) {
+            @media screen and (max-width: $media2) {
                 font-size: 16px;
             }
 
-            @media screen and (max-width: 867px) {
+            @media screen and (max-width: $media3) {
                 font-size: 12px;
             }
 
                     
-            @media screen and (max-width: 528px) {
+            @media screen and (max-width: $media5) {
                 margin-bottom: 60px;
                 text-align: left;
             }
@@ -71,11 +80,11 @@
                 margin-top: 13px;
                 display: flex;
                 align-items: center;
-                color: #81a0bd;
+                color: $steelblue;
                 text-decoration: none;
                 transition: .8s;
                 &:hover {
-                    color: #e48480;  
+                    color: $reddishbright;  
                 }
             }
 
@@ -87,19 +96,19 @@
             h2 {
                 text-align: center;
                 letter-spacing: 2px;
-                color: #e48480;
+                color: $reddishbright;
                 margin: 0;
 
-                @media screen and (max-width: 1024px) {
+                @media screen and (max-width: $media2) {
                     font-size: 15px;
                 }
     
-                @media screen and (max-width: 867px) {
+                @media screen and (max-width: $media3) {
                     font-size: 15px;
     
                 }
     
-                @media screen and (max-width: 528px) {
+                @media screen and (max-width: $media5) {
                     font-size: 12px;
                 }
             }
@@ -108,19 +117,19 @@
             .contact_links-icon {
                 margin-right: 20px;
                 font-size: 40px;
-                color:#81a0bd;
+                color: $steelblue;
 
                 
-                @media screen and (max-width: 1024px) {
+                @media screen and (max-width: $media2) {
                     font-size: 30px;
                 }
     
-                @media screen and (max-width: 867px) {
+                @media screen and (max-width: $media3) {
                     font-size: 20px;
     
                 }
     
-                @media screen and (max-width: 528px) {
+                @media screen and (max-width: $media5) {
                     font-size: 15px;
                 }
             }

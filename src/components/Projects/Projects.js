@@ -41,10 +41,10 @@ const Projects = () => {
           <h3> React / Sudoku.js  </h3>
           <div className='project_describe_links'>
             <div className='project_describe_links-githublink'>
-              <a href="https://sudoku-r.herokuapp.com/">github</a>
+              <a href="https://github.com/nicolaskimm/sudoku-v2">github</a>
             </div>
             <div className='project_describe_links-demolink'>
-              <a href="demo">demo</a>
+              <a href="https://nicolaskimm.github.io/sudoku-v2/">demo</a>
             </div>
           </div> 
         </div>
@@ -56,10 +56,10 @@ const Projects = () => {
           <h3> JavaScript </h3>
           <div className='project_describe_links'>
             <div className='project_describe_links-githublink'>
-              <a href="https://nicolaskimm.github.io/Dice-Game/">github</a>
+              <a href="https://github.com/nicolaskimm/Dice-Game">github</a>
             </div>
             <div className='project_describe_links-demolink'>
-              <a href="demo">demo</a>
+              <a href="https://nicolaskimm.github.io/Dice-Game/">demo</a>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@ const Projects = () => {
         <div className='project_describe'>
           <h1> Chat App </h1>
           <h3> React / Express / MongoDB / Socket.IO / Webpack </h3>
-          <div className='project_describe_link'>
+          <div className='project_describe_links'>
             <div className='project_describe_links-githublink'>
               <a href="https://github.com/nicolaskimm/module_18">github</a>
             </div>
@@ -86,7 +86,7 @@ const Projects = () => {
           <h3> HTML / CSS / Sass </h3>
           <div className='project_describe_links'>
             <div className='project_describe_links-githublink'>
-              <a href="https://nicolaskimm.github.io/module_7_7/">github</a>
+              <a href="https://github.com/nicolaskimm/module_7_7">github</a>
             </div>
             <div className='project_describe_links-demolink'>
               <a href="https://nicolaskimm.github.io/module_7_7/">demo</a>

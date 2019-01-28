@@ -12,14 +12,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: white;
 }
 
 .contact .contact_header {
   margin-bottom: 50px;
   font-size: 50px;
   letter-spacing: 2.5px;
-  color: #94a9bd;
+  color: #809fbc;
 }
 
 @media screen and (max-width: 1024px) {
@@ -113,14 +112,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #81a0bd;
+  color: #809fbc;
   text-decoration: none;
   -webkit-transition: .8s;
   transition: .8s;
 }
 
 .contact .contact_links .contact_links-official > a:hover, .contact .contact_links .contact_links-social > a:hover, .contact .contact_links .contact_links-other > a:hover, .contact .contact_links .contact_links-official > p:hover, .contact .contact_links .contact_links-official .contact_links-social > p:hover, .contact .contact_links .contact_links-official .contact_links-other > p:hover, .contact .contact_links .contact_links-social .contact_links-official > p:hover, .contact .contact_links .contact_links-social > p:hover, .contact .contact_links .contact_links-social .contact_links-other > p:hover, .contact .contact_links .contact_links-other .contact_links-official > p:hover, .contact .contact_links .contact_links-other .contact_links-social > p:hover, .contact .contact_links .contact_links-other > p:hover, .contact .contact_links .contact_links-social > a:hover, .contact .contact_links .contact_links-official .contact_links-social > p:hover, .contact .contact_links .contact_links-social > p:hover, .contact .contact_links .contact_links-other .contact_links-social > p:hover, .contact .contact_links .contact_links-other > a:hover, .contact .contact_links .contact_links-official .contact_links-other > p:hover, .contact .contact_links .contact_links-social .contact_links-other > p:hover, .contact .contact_links .contact_links-other > p:hover {
-  color: #e48480;
+  color: rgba(255, 95, 87, 0.808);
 }
 
 .contact .contact_links .contact_links-official p, .contact .contact_links .contact_links-social p, .contact .contact_links .contact_links-other p, .contact .contact_links .contact_links-social p, .contact .contact_links .contact_links-other p {
@@ -130,7 +129,7 @@
 .contact .contact_links .contact_links-official h2, .contact .contact_links .contact_links-social h2, .contact .contact_links .contact_links-other h2, .contact .contact_links .contact_links-social h2, .contact .contact_links .contact_links-other h2 {
   text-align: center;
   letter-spacing: 2px;
-  color: #e48480;
+  color: rgba(255, 95, 87, 0.808);
   margin: 0;
 }
 
@@ -155,7 +154,7 @@
 .contact .contact_links .contact_links-official .contact_links-icon, .contact .contact_links .contact_links-social .contact_links-icon, .contact .contact_links .contact_links-other .contact_links-icon, .contact .contact_links .contact_links-social .contact_links-icon, .contact .contact_links .contact_links-other .contact_links-icon {
   margin-right: 20px;
   font-size: 40px;
-  color: #81a0bd;
+  color: #809fbc;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,3 +1,11 @@
+$reddishbright: hsla(3, 100%, 67%, 0.808);
+$brightblue: hsl(209, 19%, 44%);
+
+$media2: 1024px;
+$media3: 867px;
+$media6: 498px;
+
+
 .navigation {
     margin: 0;
     width: 100%;
@@ -15,11 +23,11 @@
 
             .navigation_list_item-link {
                 font-size: 27px;
-                color: #6e869c;
+                color: $brightblue;
                 text-decoration: none;
                 transition: 0.3s;
                 &:hover {
-                    color: #db524bce;
+                    color: $reddishbright;
                     font-weight: bold;
                 }
                 &:focus {
@@ -27,15 +35,15 @@
                     letter-spacing: 3px;
                 }
 
-                @media screen and (max-width: 1024px) {
+                @media screen and (max-width: $media2) {
                     font-size: 20px;
                 }
 
-                @media screen and (max-width: 867px) {
+                @media screen and (max-width: $media3) {
                     font-size: 15px;
                 }
 
-                @media screen and (max-width: 498px) {
+                @media screen and (max-width: $media6) {
                     font-size: 12px;
                 }
             } 

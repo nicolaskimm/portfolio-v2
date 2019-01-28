@@ -1,12 +1,22 @@
+$reddishbright: hsla(3, 100%, 67%, 0.808);
+$pinkdescribe: hsla(0, 8%, 60%, 0.973);
+$primarWhite: white;
+
+$media2: 1024px;
+$media3: 867px;
+$media5: 528px;
+$media6: 498px;
+$media7: 419px;
+
+
 .aboutMe {
     display: flex;
     justify-content: center;
     width: 90%;
     margin: 0 auto;
     height: auto;
-    box-sizing: border-box;
 
-    @media screen and (max-width: 560px) {
+    @media screen and (max-width: $media5) {
         flex-direction: column;
     }
   
@@ -15,34 +25,34 @@
         height: auto;
         margin-right: 10px;
 
-        @media screen and (max-width: 560px) {
+        @media screen and (max-width: $media5) {
             width: 100%;
             margin-right: 0;       
         }
 
-        @media screen and (max-width: 498px) {
+        @media screen and (max-width: $media6) {
             width: 100%;
             margin-right: 0;
         }
 
         .aboutMe_left_text {
             padding: 25px;
-            color: #a09090f8;
+            color: $pinkdescribe;
             margin: 0;
             font-size: 17.3px;
             letter-spacing: 0;
             text-align: justify;
 
-            @media screen and (max-width: 1024px) {
+            @media screen and (max-width: $media2) {
                 font-size: 15px;
             }
 
-            @media screen and (max-width: 867px) {
+            @media screen and (max-width: $media3) {
                 font-size: 12px;
 
             }
 
-            @media screen and (max-width: 498px) {
+            @media screen and (max-width: $media6) {
                 text-align: left;
                 font-size: 11px;
                 line-height: 1.5;
@@ -61,32 +71,32 @@
         
         .aboutMe_left_text-header {
             font-size: 50px;
-            color: white;
+            color: $primarWhite;
 
-            @media screen and (max-width: 1024px) {
+            @media screen and (max-width: $media2) {
                 font-size: 40px;
             }
 
-            @media screen and (max-width: 867px) {
+            @media screen and (max-width: $media3) {
                 font-size: 30px;
 
             }
 
-            @media screen and (max-width: 560px) {
+            @media screen and (max-width: $media5) {
                 font-size: 22px;
             }
 
-            @media screen and (max-width: 498px) {
+            @media screen and (max-width: $media6) {
                 font-size: 20px;
             }
 
-            @media screen and (max-width: 419px) {
+            @media screen and (max-width: $media7) {
                 font-size: 15px;
             }
         }
 
         .aboutMe_left_text-tech {
-            color: #ff5d55a9;
+            color: $reddishbright;
         }
     }
 
@@ -97,7 +107,7 @@
         flex-direction: row;
         margin-top: 25px;
 
-        @media screen and (max-width: 560px) {
+        @media screen and (max-width: $media5) {
             width: 100%; 
             height: auto;
             padding: 0;  
@@ -111,37 +121,36 @@
             flex-wrap: wrap;
             justify-content: center;
 
-            @media screen and (max-width: 560px) {
+            @media screen and (max-width: $media5) {
                 width: 100%;
             }
 
             div {
                 width: 40%;
 
-                @media screen and (max-width: 560px) {
+                @media screen and (max-width: $media5) {
                     width: auto;
                 }
 
                 .aboutMe_right_skillbox-skillIcon {
                     font-size: 120px;
-                    color: #ff5d55a9;
-                    margin: 0 5px 30px 0;
+                    color: $reddishbright;
 
-                    @media screen and (max-width: 1024px) {
+                    @media screen and (max-width: $media2) {
                         font-size: 90px;
                     }
 
-                    @media screen and (max-width: 867px) {
+                    @media screen and (max-width: $media3) {
                         font-size: 60px;
 
                     }
 
-                    @media screen and (max-width: 560px) {
+                    @media screen and (max-width: $media5) {
                         font-size: 35px;
                         margin-right: 15px;
                     }
 
-                    @media screen and (max-width: 498px) {
+                    @media screen and (max-width: $media6) {
                         font-size: 20px;
                     }
 

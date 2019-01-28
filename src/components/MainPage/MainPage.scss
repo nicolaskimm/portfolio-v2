@@ -1,3 +1,14 @@
+$reddishbright: hsla(3, 100%, 67%, 0.808);
+$reddishdark: hsla(3, 100%, 67%, 0.4);
+$brightblue: hsl(209, 19%, 44%);
+
+$media1: 1200px;
+$media2: 1024px;
+$media3: 867px;
+$media4: 712px;
+$media5: 528px;
+
+
 .mainPage {
     margin: 0;
     width: 100%;
@@ -12,15 +23,15 @@
         justify-content: center;
         margin-right: 20px;
 
-        @media screen and (max-width: 867px) {
+        @media screen and (max-width: $media3) {
             margin-right: 0;
         }
 
-        @media screen and (max-width: 712px) {
+        @media screen and (max-width: $media4) {
             width: 200px;
         }
 
-        @media screen and (max-width: 528px) {
+        @media screen and (max-width: $media5) {
             display: none;
         }
 
@@ -28,28 +39,28 @@
             width: 330px;
             height: 500px;
             padding: 20px;
-            border: .2px solid #ff5d5538; 
+            border: .2px solid $reddishdark; 
             &:hover {
-                border: .2px solid white;
+                border: .2px solid $brightblue;
             }
 
-            @media screen and (max-width: 1200px) {
+            @media screen and (max-width: $media1) {
                 width: 300px;
                 height: 470px;
             }
 
-            @media screen and (max-width: 1024px) {
+            @media screen and (max-width: $media2) {
                 width: 270px;
                 height: 420px;
             }
 
-            @media screen and (max-width: 867px) {
+            @media screen and (max-width: $media3) {
                 border: none;
                 width: 240px;
                 height: 370px;
             }
 
-            @media screen and (max-width: 712px) {
+            @media screen and (max-width: $media4) {
                 width: 200px;
                 height: 310px;
                 &:hover {
@@ -69,30 +80,30 @@
         }
 
         p:first-child {
-            color: #5b7186;
+            color: $brightblue;
             font-size: 100px;
             letter-spacing: 20px;
             font-weight: bold;
             margin: 0;
 
-            @media screen and (max-width: 1200px) {
+            @media screen and (max-width: $media1) {
                 font-size: 80px;
             }
 
-            @media screen and (max-width: 1024px) {
+            @media screen and (max-width: $media2) {
                 font-size: 60px;
             }
 
-            @media screen and (max-width: 867px) {
+            @media screen and (max-width: $media3) {
                 font-size: 50px;
             }
 
-            @media screen and (max-width: 712px) {
+            @media screen and (max-width: $media4) {
                 font-size: 35px;
                 letter-spacing: 15px;
             }
 
-            @media screen and (max-width: 528px) {
+            @media screen and (max-width: $media5) {
                 font-size: 45px;
             }
         }
@@ -101,69 +112,69 @@
             @extend p:first-child;
             margin-bottom: 40px;
 
-            @media screen and (max-width: 1200px) {
+            @media screen and (max-width: $media1) {
                 font-size: 80px;
             }
 
-            @media screen and (max-width: 1024px) {
+            @media screen and (max-width: $media2) {
                 font-size: 60px;
             }
 
-            @media screen and (max-width: 867px) {
+            @media screen and (max-width: $media3) {
                 font-size: 48px;
             }
 
-            @media screen and (max-width: 712px) {
+            @media screen and (max-width: $media4) {
                 font-size: 35px;
             }
 
-            @media screen and (max-width: 528px) {
+            @media screen and (max-width: $media5) {
                 font-size: 42px;
             }
         } 
 
         p:nth-child(4) {
-            color: #ff5d555b;
+            color: $reddishdark;
             letter-spacing: 1px;
             font-size: 20px;
             font-weight: lighter;
 
-            @media screen and (max-width: 1024px) {
+            @media screen and (max-width: $media2) {
                 font-size: 17.5px;
             }
 
-            @media screen and (max-width: 712px) {
+            @media screen and (max-width: $media4) {
                 font-size: 15px;
             }
 
-            @media screen and (max-width: 528px) {
+            @media screen and (max-width: $media5) {
                 font-size: 17px;
             }
         }
 
         h1 {
-            color: #ff5d55ce;
+            color: $reddishbright;
             font-size: 36px;
             letter-spacing: 15px;
 
-            @media screen and (max-width: 1200px) {
+            @media screen and (max-width: $media1) {
                 font-size: 25px;
             }
 
-            @media screen and (max-width: 1024px) {
+            @media screen and (max-width: $media2) {
                 font-size: 20px;
             }
 
-            @media screen and (max-width: 867px) {
+            @media screen and (max-width: $media3) {
                 letter-spacing: 8px;
             }
 
-            @media screen and (max-width: 712px) {
+            @media screen and (max-width: $media4) {
                 font-size: 17px;
                 letter-spacing: 4px;
             }
 
-            @media screen and (max-width: 528px) {
+            @media screen and (max-width: $media5) {
                 font-size: 20px;
                 margin-bottom: 30px;
             }

@@ -18,14 +18,14 @@
 
 .navigation .navigation_list .navigation_list_item .navigation_list_item-link {
   font-size: 27px;
-  color: #6e869c;
+  color: #5b7186;
   text-decoration: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .navigation .navigation_list .navigation_list_item .navigation_list_item-link:hover, .navigation .navigation_list .navigation_list_item .navigation_list_item-link:focus {
-  color: #db524bce;
+  color: rgba(255, 95, 87, 0.808);
   font-weight: bold;
 }
 

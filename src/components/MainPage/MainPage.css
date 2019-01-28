@@ -49,11 +49,11 @@
   width: 330px;
   height: 500px;
   padding: 20px;
-  border: .2px solid #ff5d5538;
+  border: 0.2px solid rgba(255, 95, 87, 0.4);
 }
 
 .mainPage .mainPage__portrait img:hover {
-  border: .2px solid white;
+  border: 0.2px solid #5b7186;
 }
 
 @media screen and (max-width: 1200px) {
@@ -173,7 +173,7 @@
 }
 
 .mainPage .mainPage__text p:nth-child(4) {
-  color: #ff5d555b;
+  color: rgba(255, 95, 87, 0.4);
   letter-spacing: 1px;
   font-size: 20px;
   font-weight: lighter;
@@ -198,7 +198,7 @@
 }
 
 .mainPage .mainPage__text h1 {
-  color: #ff5d55ce;
+  color: rgba(255, 95, 87, 0.808);
   font-size: 36px;
   letter-spacing: 15px;
 }

@@ -25,7 +25,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 20px 0 70px;
-  background-color: #292f3bbd;
+  background-color: rgba(41, 47, 60, 0.741);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,7 +80,7 @@
   width: 30%;
   margin: 0;
   padding: 30px;
-  color: #a09090f8;
+  color: rgba(161, 145, 145, 0.973);
 }
 
 @media screen and (max-width: 867px) {
@@ -127,7 +127,7 @@
 .projects .project_container .project_describe_links > div {
   width: 300px;
   height: 35px;
-  background-color: #343b49b6;
+  background-color: rgba(53, 60, 75, 0.714);
   margin-right: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -138,22 +138,21 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transition: 0.9s;
-  transition: 0.9s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .projects .project_container .project_describe_links > div:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  background-color: #363c4dde;
-  color: #fd6961e7;
-  -webkit-box-shadow: -10px 10px 10px #242933;
-          box-shadow: -10px 10px 10px #242933;
+  background-color: rgba(54, 61, 78, 0.871);
+  -webkit-box-shadow: -8px 8px 8px #232833;
+          box-shadow: -8px 8px 8px #232833;
 }
 
 .projects .project_container .project_describe_links-githublink > a, .projects .project_container .project_describe_links-demolink > a {
   text-decoration: none;
-  color: #ff5d55e7;
+  color: rgba(255, 95, 87, 0.808);
 }
 
 @media screen and (max-width: 867px) {

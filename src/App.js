@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import MainPage from './components/MainPage/MainPage.js';
 import Navigation from './components/Navigation/Navigation.js';
@@ -7,7 +6,6 @@ import AboutMe from './components/AboutMe/AboutMe.js';
 import Projects from './components/Projects/Projects.js';
 import Loader from './components/Loader/Loader.js';
 import Contact from './components/Contact/Contact.js';
-import './App.css';
 
 class App extends Component {
   state = {

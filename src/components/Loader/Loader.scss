@@ -1,3 +1,14 @@
+$media3: 867px;
+$media4: 712px;
+
+$circle6: hsla(3, 60%, 57%, 0.373);
+$circle5: hsla(3, 99%, 67%, 0.404);
+$circle4: hsla(3, 99%, 67%, 0.549);
+$circle3: hsla(3, 99%, 67%, 0.706);
+$circle2: hsla(3, 100%, 76%, 0.773);
+$circle1: hsla(2, 100%, 81%, 0.8);
+
+
 .loader {
     height: 100vh;
     display: flex;
@@ -13,91 +24,91 @@
         transition: 1s;
         animation: loading 1.5s linear 1;
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: $media4) {
             top: 25px;
             left: 25px;
         }
     }
     
     .loader_circle-1 {
-        background-color: #ffa09dcc;
+        background-color: $circle1;
         width: 150px;
         height: 150px;
 
-        @media screen and (max-width: 867px) {
+        @media screen and (max-width: $media3) {
             width: 50px;
             height: 50px;
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: $media4) {
             width: 20px;
             height: 20px;
         }
     }
     
     .loader_circle-2 {
-        background-color: #ff8b85c5;
+        background-color: $circle2;
         width: 250px;
         height: 250px;
         animation-delay: 0.2s;
 
-        @media screen and (max-width: 867px) {
+        @media screen and (max-width: $media3) {
             width: 150px;
             height: 150px;
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: $media4) {
             width: 70px;
             height: 70px;
         }
     }
     
     .loader_circle-3 {
-        background-color: #fe5e56b4;
+        background-color: $circle3;
         width: 350px;
         height: 350px;
         animation-delay: 0.4s;
 
-        @media screen and (max-width: 867px) {
+        @media screen and (max-width: $media3) {
             width: 250px;
             height: 250px;
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: $media4) {
             width: 120px;
             height: 120px;
         }
     }
     
     .loader_circle-4 {
-        background-color: #fe5e568c;
+        background-color: $circle4;
         width: 450px;
         height: 450px;
         animation-delay: 0.6s;
 
-        @media screen and (max-width: 867px) {
+        @media screen and (max-width: $media3) {
             width: 350px;
             height: 350px;
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: $media4) {
             width: 170px;
             height: 170px;
         }
     }
     
     .loader_circle-5 {
-        background-color: #fe5e5667;
+        background-color: $circle5;
         width: 550px;
         height: 550px;
         animation-delay: 0.8s;
 
-        @media screen and (max-width: 867px) {
+        @media screen and (max-width: $media3) {
             width: 450px;
             height: 450px;
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: $media4) {
             width: 220px;
             height: 220px;
         }
@@ -106,16 +117,16 @@
     .loader_outsideCircle {
         width: 650px;
         height: 650px;
-        background-color: #fe5f563f;
+        background-color: $circle6;
         position: relative;
         border-radius: 50%;
 
-        @media screen and (max-width: 867px) {
+        @media screen and (max-width: $media3) {
             width: 550px;
             height: 550px;
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: $media4) {
             width: 270px;
             height: 270px;
         }
