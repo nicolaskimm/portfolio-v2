@@ -33,8 +33,10 @@ class AboutMe extends React.Component {
         <div className='aboutMe_left'>
           <CSSTransitionGroup
             transitionName="aboutMe_left_transition"
-            transitionAppear={ true }
-            transitionAppearTimeout= {2500}>
+            transitionAppear={true}
+            transitionAppearTimeout={2500}
+            transitionEnter={false}
+            transitionLeave={false}>
             <p className='aboutMe_left_text'>
               <span className='aboutMe_left_text-header'>Programming.</span> I never thought that one day I will be an aspiring programmist. I was more like 'yeah, sure, programming? And later scholarship on Hogwarth'. 
               My interest in programming started about a little over a year ago. It began with Codecademy platform and 'Programuj dziewczyno' workshop. After a month of learning on my own 
@@ -59,8 +61,10 @@ class AboutMe extends React.Component {
           <CSSTransitionGroup
             className='aboutMe_right_skillbox'
             transitionName="aboutMe_right_skillbox-transition"
-            transitionAppear={ true }
-            transitionAppearTimeout= {1300}>
+            transitionAppear={true}
+            transitionAppearTimeout={2500}
+            transitionEnter={false}
+            transitionLeave={false}>
             <div className='aboutMe_right_skillbox aboutMe_right_skillbox-skill1'>
               <i className='aboutMe_right_skillbox-skillIcon'><FontAwesomeIcon icon={faHtml5} /></i>
             </div>

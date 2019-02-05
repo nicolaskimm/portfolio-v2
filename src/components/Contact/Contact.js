@@ -19,8 +19,10 @@ const Contact = () => {
       <div className='contact_links'>
         <CSSTransitionGroup
         transitionName='contact_links-official_transition'
-        transitionAppear={ true }
-        transitionAppearTimeout= {2500}>
+        transitionAppear={true}
+        transitionAppearTimeout={2500}
+        transitionEnter={false}
+        transitionLeave={false}>
           <div className='contact_links-official'>
             <h2> contact </h2>
             <a href='mailto:j.krezolek@gmail.com'><FontAwesomeIcon icon={faAt} className='contact_links-icon' /> j.krezolek@gmail.com </a>
@@ -31,8 +33,10 @@ const Contact = () => {
         </CSSTransitionGroup>
         <CSSTransitionGroup
         transitionName='contact_links-social_transition'
-        transitionAppear={ true }
-        transitionAppearTimeout= {2500}>
+        transitionAppear={true}
+        transitionAppearTimeout={2500}
+        transitionEnter={false}
+        transitionLeave={false}>
           <div className='contact_links-social'>
             <h2> social media </h2>
             <a href='https://www.facebook.com/j.krezolek'><FontAwesomeIcon icon={faFacebook} className='contact_links-icon' /> facebook </a>
@@ -41,8 +45,10 @@ const Contact = () => {
         </CSSTransitionGroup>
         <CSSTransitionGroup
         transitionName='contact_links-other_transition'
-        transitionAppear={ true }
-        transitionAppearTimeout= {2500}>
+        transitionAppear={true}
+        transitionAppearTimeout={2500}
+        transitionEnter={false}
+        transitionLeave={false}>
           <div className='contact_links-other'>
             <h2> other cool stuff </h2>
             <a href='https://steamcommunity.com/id/nicolaskimm/'><FontAwesomeIcon icon={faSteam} className='contact_links-icon' /> steam </a>
