@@ -23,7 +23,7 @@ const Projects = () => {
         <div className='project_photo project_photo-budgety'></div>
         <div className='project_describe'>
           <h1> Budgety </h1>
-          <h3> Javascript / ES6 </h3>
+          <h3> Javascript </h3>
           <div className='project_describe_links'>
             <div className='project_describe_links-githublink'>
               <a href="https://github.com/nicolaskimm/budgety-">github</a>
