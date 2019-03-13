@@ -15,8 +15,8 @@ class MainPage extends React.Component {
         <div className='mainPage__text'>
           <p> JOASIA </p>
           <p> KRĘŻOŁEK </p>
-          <h1> junior web developer </h1>
-          <p> JavaScript / React / Node.js </p>
+          <h1> junior front-end developer </h1>
+          <p> HTML / CSS / JavaScript / React </p>
         </div>
       </div>
     )

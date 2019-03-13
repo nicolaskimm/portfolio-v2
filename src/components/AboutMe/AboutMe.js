@@ -12,21 +12,6 @@ import faGithub from '@fortawesome/fontawesome-free-brands/faGithub';
 import faNpm from '@fortawesome/fontawesome-free-brands/faNpm';
 
 class AboutMe extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      isVisible: false,
-      className: 'aboutMe__button-active',
-    }
-  }
-
-  handleClick() {
-    this.setState({
-      isVisible: true,
-      className: 'aboutMe__button-disactive'
-    })
-  }
-  
   render() {
     return (
       <div className='aboutMe'>
